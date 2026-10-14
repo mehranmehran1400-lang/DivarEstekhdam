@@ -1,0 +1,6 @@
+{
+  "name": "ادمین سنتر | سامانه استخدام ادمین پاسخگوی دیوار",
+  "description": "سامانه مرجع آموزش، ساماندهی و استخدام ادمین‌های پاسخگوی اپلیکیشن دیوار با نظارت مهران نعمتی و تسویه روزانه.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
