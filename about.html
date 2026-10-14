@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>درباره ما و شفافیت قانونی | ادمین سنتر</title>
+    <meta name="description" content="شفافیت تشکیلاتی، هویت اداری و اهداف سامانه ادمین سنتر تحت مدیریت مهران نعمتی با پذیرش حضوری در تهران صادقیه." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-[#f9f9ff] text-[#121b2e] antialiased selection:bg-[#fabc4f] selection:text-[#281900] font-['Vazirmatn',sans-serif]">
+    
+    <!-- Top Notice Bar -->
+    <aside class="top-notice-bar">
+      <div class="max-w-7xl mx-auto top-notice-content">
+        <div class="flex items-center gap-2">
+          <span class="pulse-dot"></span>
+          <span class="font-bold text-xs sm:text-sm text-[#ffdead]">
+            ما دارای نماد اعتماد فعالیت الکترونیکی هستیم و بصورت حضوری هم پذیرش افراد رو داریم
+          </span>
+          <span class="text-[11px] text-[#b0c7f8] hidden md:inline">
+            (مشاهده نماد ۵ ستاره در انتهای صفحه)
+          </span>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="https://ble.ir/DivarEstekhdam" target="_blank" rel="noopener noreferrer" class="text-[#ffdead] font-bold hover:underline flex items-center gap-1 text-xs sm:text-sm">
+            <span>شناسه رسمی در بله:</span>
+            <span dir="ltr" class="font-mono text-white">@DivarEstekhdam</span>
+          </a>
+          <span class="text-[#c4c6d0] opacity-40 hidden md:inline">|</span>
+          <span class="text-emerald-300 hidden md:inline text-xs font-semibold">پذیرش حضوری در صادقیه</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Header -->
+    <header class="glass-nav">
+      <div class="max-w-7xl mx-auto h-20 px-4 sm:px-6 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group text-right cursor-pointer no-underline">
+          <div class="w-11 h-11 rounded-xl overflow-hidden shadow-md border-2 border-[#fabc4f]/70 shrink-0 group-hover:scale-105 transition-transform bg-[#0a254d]">
+            <img alt="لوگوی ادمین سنتر (AC)" class="w-full h-full object-cover" src="assets/images/logo.jpg" />
+          </div>
+          <div class="flex flex-col">
+            <span class="font-black text-lg sm:text-xl text-[#0a254d] tracking-tight">ادمین سنتر</span>
+            <span class="text-[11px] sm:text-xs text-[#15803d] font-bold">پلتفرم مرجع همکاری ادمین پاسخگوی اپلیکیشن دیوار</span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-5 text-sm font-medium text-[#44474e]">
+          <a href="index.html" class="hover:text-[#1e5bba] transition-colors pb-1">صفحه اصلی</a>
+          <a href="products.html" class="hover:text-[#1e5bba] transition-colors pb-1">بسته‌ها و خدمات</a>
+          <a href="about.html" class="text-[#1e5bba] font-bold border-b-2 border-[#1e5bba] pb-1 transition-colors">درباره ما و شفافیت</a>
+          <a href="contact.html" class="hover:text-[#1e5bba] transition-colors pb-1">تماس و پشتیبانی</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="index.html#start-cooperation" class="btn-gold hidden sm:inline-flex text-xs py-2 px-4 shadow-sm">
+            شروع سریع همکاری
+          </a>
+          <button type="button" id="mobileMenuBtn" class="lg:hidden p-2 text-[#0a254d] rounded-lg hover:bg-slate-100" aria-label="منوی سایت">
+            <span class="material-symbols-outlined text-[26px]">menu</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobileNavDrawer" class="hidden lg:hidden bg-white/95 backdrop-blur-md border-b border-slate-200 px-4 py-4 shadow-xl">
+        <nav class="flex flex-col gap-2.5 text-right">
+          <a href="index.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">صفحه اصلی</a>
+          <a href="products.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">بسته‌ها و خدمات</a>
+          <a href="about.html" class="py-2 px-2 text-right rounded-lg bg-blue-50 text-[#1e5bba] font-bold">درباره ما و شفافیت</a>
+          <a href="contact.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">تماس و ثبت تیکت</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <!-- About Hero -->
+      <section class="py-16 sm:py-20 bg-gradient-to-b from-[#0a254d] to-[#153460] text-white text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+          <span class="badge-gold mb-3">شفافیت اداری و منشور اخلاقی</span>
+          <h1 class="text-3xl sm:text-5xl font-black text-white mb-4">
+            درباره ادمین سنتر؛ بدون حاشیه و کاملاً واقع‌بینانه
+          </h1>
+          <p class="text-xs sm:text-base text-[#d7e2ff] leading-relaxed max-w-2xl mx-auto">
+            ادمین سنتر یک سامانه تخصصی و مستقل است که با هدف ایجاد اشتغال پایدار و کارآفرینی برای عموم اقشار طراحی شده تا در شرایط کنونی، افراد بدون پیش‌شرط‌های سخت به درآمد روزانه ۱.۵ تا ۲ میلیون تومانی دست پیدا کنند.
+          </p>
+        </div>
+      </section>
+
+      <!-- 3 Pillars Section -->
+      <section class="py-16 sm:py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            
+            <div class="glass-card p-6 border-t-4 border-[#0a254d]">
+              <div class="w-12 h-12 rounded-xl bg-[#d7e2ff]/60 text-[#0a254d] flex items-center justify-center mb-4">
+                <span class="material-symbols-outlined text-[28px]">school</span>
+              </div>
+              <h3 class="text-lg font-bold text-[#0a254d] mb-2">آموزش و استانداردسازی</h3>
+              <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                ما الگوهای استاندارد مکالمه با مشتری، مدیریت زمان، نحوه ثبت داده‌ها و حل چالش‌های رفتاری متقاضیان را در قالب متون و راهنماهای دقیق آموزش می‌دهیم تا متقاضی بلافاصله آماده فعالیت شود.
+              </p>
+            </div>
+
+            <div class="glass-card p-6 border-t-4 border-[#fabc4f]">
+              <div class="w-12 h-12 rounded-xl bg-[#ffdead]/50 text-[#513600] flex items-center justify-center mb-4">
+                <span class="material-symbols-outlined text-[28px]">supervisor_account</span>
+              </div>
+              <h3 class="text-lg font-bold text-[#0a254d] mb-2">مدیریت عالی: مهران نعمتی</h3>
+              <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                کلیه فرآیندهای هدایت، بررسی مدارک و رسیدها تحت نظارت مستقیم شخص مهران نعمتی انجام می‌گیرد تا از هرگونه سوء‌استفاده احتمالی و بی‌پاسخ ماندن همکاران جلوگیری شود.
+              </p>
+            </div>
+
+            <div class="glass-card p-6 border-t-4 border-[#1e5bba]">
+              <div class="w-12 h-12 rounded-xl bg-[#d8e2ff]/60 text-[#1e5bba] flex items-center justify-center mb-4">
+                <span class="material-symbols-outlined text-[28px]">balance</span>
+              </div>
+              <h3 class="text-lg font-bold text-[#0a254d] mb-2">صداقت در درآمد و انتظارات</h3>
+              <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                ما هیچ وعده غیرواقعی در خصوص ارقام نجومی چند ده‌میلیونی نمی‌دهیم. درآمد شما مستقیماً وابسته به دقت، ساعات حضور، سرعت تایپ و کیفیت نهایی پاسخگویی‌تان به کاربران است (۱.۵ تا ۲ میلیون در روز).
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Two Real Photos -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div class="rounded-2xl overflow-hidden border-2 border-[#fabc4f]/40 shadow-xl">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwonkmhZ0jRmUqj60lFwk3tv8d16OhnN9ux6uyspxqXmc8w1B5NEsIisIRK8k_7CRF-UzQeesLU1Ddw2SPB8UnRX7qIloDyZqo5VxBo2GQpcOs_VgU7uDJH6b-ngIsX5LKMUlW1XdPlclUPmp6ZSfLiO20RvqQGbqd51xyfqRUTIudEdSVk0u8wvoRIakS7gPVYj8zRFieJF--PhZ-zP9_AVeMW3wZ13oZ6_nmUNGQuh6Pm0lbrUo6G45IPaZk_4tcYg" alt="سالن پاسخگویی" class="w-full h-64 object-cover" />
+              <div class="p-4 bg-[#0a254d] text-white flex items-center justify-between">
+                <span class="text-xs font-bold">سالن عملیات و پاسخگویی متمرکز</span>
+                <span class="badge-gold text-[10px]">نظارت مستمر</span>
+              </div>
+            </div>
+
+            <div class="rounded-2xl overflow-hidden border-2 border-[#fabc4f]/40 shadow-xl">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIhJ-g5J3sJKKVUyyVd1lbrqIbxMhHlp1r-mH2qFZA5FqKfzRgCW1WZ2EgprsD8dt5XVZ5w07VaWEicFLMhpjClKi4wc9zxeTYNPM74-9H09sNd3BIA5WoIXUuV2YlnIMK1G2eWIyanUc2JpHHl-RV9iRwnAmUxtS_g5tzCeiDhlYGta6T905SPxeF7IiO3SOaafzUcZy2qMhzeRwMwDlroa1LwSTW3gUr23QS4kPDE0gpJWR-qgug__XexmJVAS1Bng" alt="دفتر مدیریت" class="w-full h-64 object-cover" />
+              <div class="p-4 bg-[#0a254d] text-white flex items-center justify-between">
+                <span class="text-xs font-bold">دفتر مرکزی و مدیریت مهران نعمتی</span>
+                <span class="badge-emerald text-[10px]">احراز هویت شده</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Legal Disclaimer -->
+          <div class="glass-card p-6 sm:p-8 bg-slate-50 border border-slate-300">
+            <h4 class="font-black text-base text-[#0a254d] mb-3">بیانیه شفاف‌سازی و عدم وابستگی:</h4>
+            <div class="text-xs text-[#44474e] leading-relaxed space-y-2 text-justify">
+              <p>۱. سامانه ادمین سنتر هیچ‌گونه وابستگی سازمانی، نمایندگی رسمی یا شراکت تجاری با اپلیکیشن محترم «دیوار» یا وزارت کار ندارد.</p>
+              <p>۲. فعالیت ما در حوزه آموزش مهارت‌های فردی، متریال سناریونویسی و اتصال نیازمندی‌های پاسخگویی آگهی‌ها به ادمین‌های آموزش‌دیده می‌باشد.</p>
+              <p>۳. دفتر فیزیکی ما در تهران، صادقیه، فلکه دوم، جنب املاک خورشید دایر است و دارای نماد اعتماد الکترونیکی فعال می‌باشیم.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center text-xs text-[#b0c7f8]">
+        © کلیه حقوق برای سامانه ادمین سنتر محفوظ است. مدیریت: مهران نعمتی | نشانی: تهران، صادقیه، فلکه دوم، جنب املاک خورشید
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2054 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ادمین سنتر | سامانه رسمی استخدام ادمین پاسخگوی دیوار</title>
+    <meta name="description" content="سامانه مستقل و معتبر آموزش، ساماندهی و استخدام ادمین‌های پاسخگوی دیوار با درآمد روزانه ۱.۵ تا ۲ میلیون تومان به بالا، دارای نماد اعتماد الکترونیکی و پذیرش حضوری در تهران صادقیه." />
+    <meta property="og:title" content="ادمین سنتر | سامانه استخدام ادمین پاسخگوی دیوار" />
+    <meta property="og:description" content="پلتفرم مرجع همکاری ادمین پاسخگوی اپلیکیشن دیوار با تسویه روزانه و پشتیبانی ۲۴ ساعته تحت نظارت مهران نعمتی." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Vazirmatn & Material Symbols -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS CDN for Zero-Build Standalone Deployment -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Project Custom CSS with Glassmorphism, Animations & Luxury Bank Card -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-[#f9f9ff] text-[#121b2e] antialiased selection:bg-[#fabc4f] selection:text-[#281900] font-['Vazirmatn',sans-serif]">
+    
+    <!-- TOP NOTICE BAR (نوار اطلاعیه اداری بالای سایت) -->
+    <aside class="top-notice-bar" aria-label="اطلاعیه رسمی">
+      <div class="max-w-7xl mx-auto top-notice-content">
+        <div class="flex items-center gap-2">
+          <span class="pulse-dot"></span>
+          <span class="font-bold text-xs sm:text-sm text-[#ffdead]">
+            ما دارای نماد اعتماد فعالیت الکترونیکی هستیم و بصورت حضوری هم پذیرش افراد رو داریم
+          </span>
+          <span class="text-[11px] text-[#b0c7f8] hidden md:inline">
+            (مشاهده نماد ۵ ستاره در انتهای صفحه)
+          </span>
+        </div>
+        <div class="flex items-center gap-3">
+          <a
+            href="https://ble.ir/DivarEstekhdam"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-[#ffdead] font-bold hover:underline transition-colors flex items-center gap-1 text-xs sm:text-sm"
+          >
+            <span>شناسه رسمی در بله:</span>
+            <span dir="ltr" class="font-mono text-white">@DivarEstekhdam</span>
+          </a>
+          <span class="text-[#c4c6d0] opacity-40 hidden md:inline">|</span>
+          <span class="text-emerald-300 hidden md:inline text-xs font-semibold">پذیرش حضوری در صادقیه</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- STICKY GLASS HEADER (هدر شیشه‌ای با لوگوی جذاب AC) -->
+    <header class="glass-nav">
+      <div class="max-w-7xl mx-auto h-20 px-4 sm:px-6 flex items-center justify-between">
+        
+        <!-- Brand & Logo -->
+        <a href="index.html" class="flex items-center gap-3 group text-right cursor-pointer no-underline">
+          <div class="w-11 h-11 rounded-xl overflow-hidden shadow-md border-2 border-[#fabc4f]/70 shrink-0 group-hover:scale-105 transition-transform bg-[#0a254d]">
+            <img
+              alt="لوگوی ادمین سنتر (AC)"
+              class="w-full h-full object-cover"
+              src="assets/images/logo.jpg"
+            />
+          </div>
+          <div class="flex flex-col">
+            <span class="font-black text-lg sm:text-xl text-[#0a254d] tracking-tight">
+              ادمین سنتر
+            </span>
+            <span class="text-[11px] sm:text-xs text-[#15803d] font-bold">
+              پلتفرم مرجع همکاری ادمین پاسخگوی اپلیکیشن دیوار
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center gap-5 text-sm font-medium text-[#44474e]">
+          <a href="index.html" class="text-[#1e5bba] font-bold border-b-2 border-[#1e5bba] pb-1 transition-colors">
+            صفحه اصلی
+          </a>
+          <a href="products.html" class="hover:text-[#1e5bba] transition-colors pb-1">
+            بسته‌ها و خدمات
+          </a>
+          <a href="about.html" class="hover:text-[#1e5bba] transition-colors pb-1">
+            درباره ما و شفافیت
+          </a>
+          <a href="#conditions" class="hover:text-[#1e5bba] transition-colors">
+            مسئولیت‌های ادمین
+          </a>
+          <a href="#office-location" class="hover:text-[#1e5bba] transition-colors">
+            مراجعه حضوری و لوکیشن
+          </a>
+          <a href="#faq" class="hover:text-[#1e5bba] transition-colors">
+            سؤالات متداول
+          </a>
+          <a href="contact.html" class="hover:text-[#1e5bba] transition-colors pb-1">
+            تماس و پشتیبانی
+          </a>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="flex items-center gap-3">
+          <a href="#start-cooperation" class="btn-gold hidden sm:inline-flex text-xs py-2 px-4 shadow-sm">
+            شروع سریع همکاری
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            type="button"
+            id="mobileMenuBtn"
+            class="lg:hidden p-2 text-[#0a254d] rounded-lg hover:bg-slate-100 transition-colors"
+            aria-label="منوی سایت"
+            aria-expanded="false"
+          >
+            <span class="material-symbols-outlined text-[26px]">menu</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu Drawer -->
+      <div id="mobileNavDrawer" class="hidden lg:hidden bg-white/95 backdrop-blur-md border-b border-slate-200 px-4 py-4 shadow-xl transition-all">
+        <nav class="flex flex-col gap-2.5 text-right">
+          <a href="index.html" class="py-2 px-2 text-right rounded-lg bg-blue-50 text-[#1e5bba] font-bold">
+            صفحه اصلی
+          </a>
+          <a href="products.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">
+            بسته‌ها و خدمات استخدامی
+          </a>
+          <a href="about.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">
+            درباره ما و شفافیت قانونی
+          </a>
+          <a href="#conditions" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">
+            مسئولیت‌های شما بعد از استخدام
+          </a>
+          <a href="#office-location" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">
+            مراجعه حضوری و نقشه بلد
+          </a>
+          <a href="#faq" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">
+            سؤالات متداول (FAQ)
+          </a>
+          <a href="#how-it-works" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">
+            مراحل قدم به قدم همکاری
+          </a>
+          <a href="contact.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">
+            تماس و ثبت تیکت رسمی
+          </a>
+          <a href="#start-cooperation" class="btn-gold mt-2 py-2.5 text-xs text-center">
+            تکمیل فرم ثبت‌نام و استخدام
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      
+      <!-- 1. HERO SECTION (توضیحات و عکس در اول سایت با تیتر اصلی بزرگ) -->
+      <section class="relative w-full overflow-hidden bg-[#0a254d] text-white py-12 sm:py-18" id="hero">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+          
+          <!-- BIG MAIN HEADLINE AT THE VERY TOP -->
+          <div class="flex flex-col gap-4 text-center max-w-5xl mx-auto mb-8 sm:mb-10">
+            
+            <!-- Live Status Badge -->
+            <div class="inline-flex items-center gap-2 self-center px-4 py-2 rounded-full bg-gradient-to-r from-[#86efac]/20 via-[#4ade80]/25 to-[#86efac]/20 border border-[#86efac]/70 shadow-[0_4px_16px_rgba(134,239,172,0.25)]">
+              <span class="w-2.5 h-2.5 rounded-full bg-[#4ade80] animate-ping"></span>
+              <span class="text-xs sm:text-sm text-[#bbf7d0] font-black tracking-wide drop-shadow-[0_1px_6px_rgba(134,239,172,0.3)]">
+                پلتفرم مرجع همکاری ادمین پاسخگوی اپلیکیشن دیوار ( ادمین سنتر )
+              </span>
+            </div>
+
+            <!-- THE BIG REQUESTED HEADLINE -->
+            <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight sm:leading-snug tracking-tight">
+              استخدام فوری ادمین پاسخگوی دیوار <span class="text-[#86efac] block sm:inline mt-2 sm:mt-0 drop-shadow-[0_2px_14px_rgba(134,239,172,0.45)]">تسویه روزانه ۱/۵۰۰ به بالا</span>
+            </h1>
+
+            <!-- Trust Badge: Mentioning e-Namad at Bottom of Website -->
+            <div class="flex flex-wrap items-center justify-center gap-3 text-xs sm:text-sm font-bold">
+              <div class="px-3.5 py-1.5 rounded-full bg-emerald-950/80 border border-emerald-400/60 text-emerald-300 flex items-center gap-1.5 shadow-md">
+                <span class="material-symbols-outlined text-[18px] text-[#fabc4f]">verified</span>
+                <span>دارای نماد اعتماد الکترونیکی (مشاهده در انتهای وبسایت)</span>
+              </div>
+              <div class="px-3.5 py-1.5 rounded-full bg-[#152a4d] border border-[#fabc4f]/50 text-[#ffdead] flex items-center gap-1.5 shadow-md">
+                <span class="material-symbols-outlined text-[18px] text-emerald-400">check_circle</span>
+                <span>تسویه حساب تضمینی هر شب ساعت ۱۲ | پذیرش فوری متقاضیان فعال</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- TWO PHOTOS SIDE-BY-SIDE IN THE MIDDLE -->
+          <div class="mb-10 sm:mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 lg:gap-8 max-w-6xl mx-auto">
+              
+              <!-- PHOTO 1: Operations Hall (سالن عملیات و پاسخگویی) -->
+              <div class="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_50px_-15px_rgba(10,37,77,0.8)] border-2 border-[#fabc4f]/40 group bg-[#243b64]">
+                <div class="relative h-60 sm:h-72 lg:h-84 w-full overflow-hidden">
+                  <img
+                    alt="سالن عملیات و پاسخگویی ادمین سنتر"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwonkmhZ0jRmUqj60lFwk3tv8d16OhnN9ux6uyspxqXmc8w1B5NEsIisIRK8k_7CRF-UzQeesLU1Ddw2SPB8UnRX7qIloDyZqo5VxBo2GQpcOs_VgU7uDJH6b-ngIsX5LKMUlW1XdPlclUPmp6ZSfLiO20RvqQGbqd51xyfqRUTIudEdSVk0u8wvoRIakS7gPVYj8zRFieJF--PhZ-zP9_AVeMW3wZ13oZ6_nmUNGQuh6Pm0lbrUo6G45IPaZk_4tcYg"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#0a254d] via-[#0a254d]/30 to-transparent pointer-events-none"></div>
+
+                  <div class="absolute top-3 right-3 px-3 py-1 bg-[#0a254d]/90 backdrop-blur-md text-white rounded-xl text-xs font-bold border border-[#fabc4f]/50 flex items-center gap-1.5 shadow-lg">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>سالن عملیات و پاسخگویی حضوری</span>
+                  </div>
+                </div>
+
+                <div class="p-3.5 sm:p-4 bg-[#152a4d] border-t border-[#fabc4f]/30 flex items-center justify-between">
+                  <div class="flex items-center gap-2.5 sm:gap-3 text-right">
+                    <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#fabc4f]/20 flex items-center justify-center border border-[#fabc4f]/40 text-[#ffdead] shrink-0">
+                      <span class="material-symbols-outlined text-[20px] sm:text-[22px]">monitoring</span>
+                    </div>
+                    <div class="flex flex-col">
+                      <span class="text-[11px] sm:text-xs text-[#b0c7f8]">سامانه مانیتورینگ فعال ادمین سنتر</span>
+                      <span class="text-xs sm:text-sm font-bold text-white">بخش نظارت بر چت‌های دیوار</span>
+                    </div>
+                  </div>
+                  <span class="px-3 py-1.5 rounded-xl text-xs sm:text-sm font-black bg-emerald-950/70 text-emerald-400 border border-emerald-500/50 shrink-0 flex items-center gap-1.5 shadow-sm">
+                    <span>وضعیت پایدار</span>
+                    <span class="material-symbols-outlined text-[#38bdf8] text-[18px]">verified</span>
+                  </span>
+                </div>
+              </div>
+
+              <!-- PHOTO 2: Office & Management Mehran Nemati (دفتر مرکزی و مدیریت مهران نعمتی) -->
+              <div class="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_20px_50px_-15px_rgba(10,37,77,0.8)] border-2 border-[#fabc4f]/40 group bg-[#243b64]">
+                <div class="relative h-60 sm:h-72 lg:h-84 w-full overflow-hidden">
+                  <img
+                    alt="دفتر مرکزی و مدیریت مهران نعمتی"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIhJ-g5J3sJKKVUyyVd1lbrqIbxMhHlp1r-mH2qFZA5FqKfzRgCW1WZ2EgprsD8dt5XVZ5w07VaWEicFLMhpjClKi4wc9zxeTYNPM74-9H09sNd3BIA5WoIXUuV2YlnIMK1G2eWIyanUc2JpHHl-RV9iRwnAmUxtS_g5tzCeiDhlYGta6T905SPxeF7IiO3SOaafzUcZy2qMhzeRwMwDlroa1LwSTW3gUr23QS4kPDE0gpJWR-qgug__XexmJVAS1Bng"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-[#0a254d]/80 via-transparent to-transparent pointer-events-none"></div>
+
+                  <div class="absolute top-3 right-3 px-3 py-1 bg-[#0a254d]/90 backdrop-blur-md text-white rounded-xl text-xs font-bold border border-[#fabc4f]/50 flex items-center gap-1.5 shadow-lg">
+                    <span class="material-symbols-outlined text-[#fabc4f] text-[18px]">verified</span>
+                    <span>دفتر مرکزی و مدیریت عالی</span>
+                  </div>
+                </div>
+
+                <div class="p-3.5 sm:p-4 bg-[#152a4d] border-t border-[#fabc4f]/30 flex items-center justify-between">
+                  <div class="flex items-center gap-2.5 sm:gap-3 text-right">
+                    <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#6b9cff]/20 flex items-center justify-center border border-[#6b9cff]/40 text-[#aec6ff] shrink-0">
+                      <span class="material-symbols-outlined text-[20px] sm:text-[22px]">manage_accounts</span>
+                    </div>
+                    <div class="flex flex-col">
+                      <span class="text-[11px] sm:text-xs text-[#b0c7f8]">مدیریت و بنیان‌گذار مجموعه</span>
+                      <span class="text-xs sm:text-sm font-bold text-white">مهران نعمتی</span>
+                    </div>
+                  </div>
+                  <span class="px-3 py-1.5 rounded-xl text-xs sm:text-sm font-black bg-emerald-950/70 text-emerald-400 border border-emerald-500/50 shrink-0 flex items-center gap-1.5 shadow-sm">
+                    <span>صلاحیت تایید شده</span>
+                    <span class="material-symbols-outlined text-[#38bdf8] text-[18px]">verified</span>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- 3. SMALLER EXPLANATION TEXT & CTAS UNDER THE PHOTOS -->
+          <div class="flex flex-col gap-6 text-right max-w-4xl mx-auto">
+            
+            <div class="p-5 sm:p-6 rounded-2xl bg-[#152a4d]/80 border border-[#244275] shadow-md">
+              <h2 class="text-sm sm:text-base font-bold text-[#fabc4f] mb-2 flex items-center gap-2">
+                <span class="material-symbols-outlined text-[20px]">info</span>
+                <span>توضیحات و راهنمای شروع فعالیت:</span>
+              </h2>
+              <p class="text-xs sm:text-sm md:text-base text-[#b0c7f8] leading-relaxed text-justify">
+                ادمین سنتر مجموعه پشتیبانی هست که بستری را فراهم کرده تا افراد جویای کار بدون هیچ شرایط خاصی به عنوان ادمین پاسخگوی دیوار فعالیت خودرا نیم ساعت بعداز خواندن فایل اموزشی شروع کنند و 1 میلیون و 500 هزارتومان روزانه درامد داشته باشند و دستمزد خودرا بصورت روزانه دریافت کنند و افراد جویای کار میتوانند اطلاعات فرم استخدام رو تکمیل کرده و برای مدیریت مجموعه در پیامرسان بله ارسال کنند و استارت کار و درامد خود را از دو ساعت بعداز همین لحظه بزنند برای ( اطلاعات بیشتر ) قسمت سوالات متداول سایت رو مطالعه کنید و در پیامرسان ( بله ) پیام دهید
+              </p>
+            </div>
+
+            <!-- Action CTAs -->
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4">
+              <a
+                href="#start-cooperation"
+                class="btn-gold text-xs sm:text-sm py-3 px-6 shadow-lg hover:shadow-xl transition-all"
+              >
+                <span>شروع سریع همکاری</span>
+                <span class="material-symbols-outlined text-[20px]">arrow_back</span>
+              </a>
+
+              <a
+                href="about.html"
+                class="btn-outline text-xs sm:text-sm text-right py-3 px-5"
+              >
+                درامد روزانه 1500 میلیون تومان ( اموزش و پشتیبانی ) بصورت رایگان میباشد
+              </a>
+            </div>
+
+            <!-- Trust Badges -->
+            <div class="pt-4 border-t border-[#243b64]/80 grid grid-cols-1 sm:grid-cols-3 gap-4 text-right">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-[#ffdead]">
+                  <span class="material-symbols-outlined text-[22px]">badge</span>
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xs text-[#d7e2ff]">بنیان‌گذار و مدیر ارشد</span>
+                  <span class="text-sm text-white font-bold">مهران نعمتی</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-[#6b9cff]">
+                  <span class="material-symbols-outlined text-[22px]">forum</span>
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xs text-[#d7e2ff]">تخصص عملیاتی</span>
+                  <span class="text-sm text-white font-bold">پاسخگویی سریع چت</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-[#fabc4f]">
+                  <span class="material-symbols-outlined text-[22px]">gavel</span>
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xs text-[#d7e2ff]">اصول کاری</span>
+                  <span class="text-sm text-white font-bold">شفافیت کامل و قانونی</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 2. RESPONSIBILITIES SECTION (بالای لوکیشن: مسئولیت‌های شما بعداز اینکه استخدام شدین چیه؟) -->
+      <section class="py-16 sm:py-20 bg-[#f9f9ff] border-b border-[#d1daf4]" id="conditions">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            
+            <div class="lg:col-span-5 flex flex-col gap-4 text-right">
+              <span class="badge-blue self-start">شرح وظایف و تعهدات کاری</span>
+              <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0a254d]">
+                مسئولیت‌های شما بعداز اینکه استخدام شدین چیه؟
+              </h2>
+              <p class="text-sm sm:text-base text-[#44474e] leading-relaxed text-justify">
+                کار پاسخگویی به چت نیازمند انضباط، صبوری و تمرکز است. ما شفافانه بیان می‌کنیم که چه مواردی برای دستیابی به رضایت شغلی و درآمد پایدار مورد نیاز است:
+              </p>
+              <div class="p-4 rounded-xl bg-[#fabc4f]/20 border border-[#fabc4f]/40 flex items-start gap-3 mt-2">
+                <span class="material-symbols-outlined text-[#513600] text-[26px] shrink-0">lightbulb</span>
+                <p class="text-xs sm:text-sm text-[#281900] font-semibold leading-relaxed">
+                  انعطاف زمانی وجود دارد اما زمانی که متعهد به پاسخگویی شدید، سرعت عمل ملاک ارزیابی شماست.
+                </p>
+              </div>
+            </div>
+
+            <div class="lg:col-span-7 grid-2">
+              <div class="glass-card p-5">
+                <div class="flex items-center gap-2 text-[#0a254d] font-bold mb-2">
+                  <span class="material-symbols-outlined text-[#1e5bba]">schedule</span>
+                  <span class="text-base">ساعات کاری منعطف</span>
+                </div>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  تعیین ساعات پاسخگویی با توافق طرفین انجام می‌شود (شیفت‌های پاره‌وقت ۲ الی ۶ ساعته در طول روز یا شب).
+                </p>
+              </div>
+
+              <div class="glass-card p-5">
+                <div class="flex items-center gap-2 text-[#0a254d] font-bold mb-2">
+                  <span class="material-symbols-outlined text-[#1e5bba]">speed</span>
+                  <span class="text-base">سرعت پاسخگویی</span>
+                </div>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  ارسال پاسخ به پیام‌های دریافتی حداکثر ظرف ۳ الی ۵ دقیقه و رعایت کامل الگوی احترام و ادب حرفه‌ای.
+                </p>
+              </div>
+
+              <div class="glass-card p-5">
+                <div class="flex items-center gap-2 text-[#0a254d] font-bold mb-2">
+                  <span class="material-symbols-outlined text-[#1e5bba]">devices</span>
+                  <span class="text-base">تجهیزات حداقلی</span>
+                </div>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  تنها داشتن یک تلفن همراه هوشمند مجهز به کیبورد روان فارسی و اتصال اینترنت پایدار کفایت می‌کند.
+                </p>
+              </div>
+
+              <div class="glass-card p-5">
+                <div class="flex items-center gap-2 text-[#0a254d] font-bold mb-2">
+                  <span class="material-symbols-outlined text-[#1e5bba]">payments</span>
+                  <span class="text-base">محاسبه دستمزد</span>
+                </div>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  پرداخت‌ها بر پایه آمار پیام‌های پاسخ‌داده‌شده محاسبه و تسویه می‌گردد؛ با تعهد کاری، <strong class="text-emerald-700 font-extrabold">درآمد روزانه ۱ میلیون و ۵۰۰ به بالا داری و هرشب برات واریز میشه</strong>.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 2.5 ADMIN & EMPLOYEE TESTIMONIALS (نظرات کارمندان و ادمین‌های ادمین سنتر - لاکچری، شیک و برجسته) -->
+      <section class="py-20 sm:py-28 bg-gradient-to-b from-[#0a1e3f] via-[#0d254c] to-[#07162e] text-white relative overflow-hidden border-y-2 border-[#fabc4f]/50" id="testimonials">
+        
+        <!-- Luxury Ambient Glows -->
+        <div class="absolute top-0 right-1/4 w-96 h-96 bg-[#fabc4f]/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-1/4 w-96 h-96 bg-[#1e5bba]/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#fabc4f_1px,transparent_1px)] [background-size:24px_24px]"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+          
+          <!-- Section Header -->
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#fabc4f]/20 via-[#ffd977]/30 to-[#fabc4f]/20 border border-[#fabc4f]/70 text-[#ffdead] text-xs font-black shadow-[0_4px_20px_rgba(250,188,79,0.25)] mb-4">
+              <span class="material-symbols-outlined text-[18px] text-[#fabc4f]">hotel_class</span>
+              <span>صدای واقعی همکاران فعال و شاغل</span>
+            </div>
+
+            <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-snug">
+              نظرات کارمندان و <span class="text-[#fabc4f] underline decoration-[#fabc4f]/50 decoration-wavy underline-offset-8">ادمین‌های برگزیده</span> ادمین سنتر
+            </h2>
+
+            <p class="text-xs sm:text-base text-[#b0c7f8] mt-3 leading-relaxed">
+              داستان موفقیت و تجربه همکارانی که بدون شرایط خاص و تنها با تعهد و ۴ الی ۵ ساعت کار روزانه، به درآمد تضمینی و تسویه هر شب ساعت ۱۲ دست یافته‌اند:
+            </p>
+
+            <!-- Quick Stats Badges -->
+            <div class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto">
+              <div class="p-3.5 rounded-2xl bg-white/5 border border-[#fabc4f]/30 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-lg">
+                <span class="font-mono text-xl sm:text-2xl font-black text-[#fabc4f]">+۵۰۰</span>
+                <span class="text-[11px] sm:text-xs text-[#d7e2ff] mt-0.5 font-medium">ادمین فعال سراسر کشور</span>
+              </div>
+              <div class="p-3.5 rounded-2xl bg-white/5 border border-emerald-400/30 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-lg">
+                <span class="font-mono text-xl sm:text-2xl font-black text-emerald-400">۱۰۰٪</span>
+                <span class="text-[11px] sm:text-xs text-[#d7e2ff] mt-0.5 font-medium">تسویه منظم رأس ساعت ۲۴</span>
+              </div>
+              <div class="p-3.5 rounded-2xl bg-white/5 border border-[#fabc4f]/30 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-lg">
+                <span class="font-mono text-xl sm:text-2xl font-black text-[#fabc4f]">۱.۸ م</span>
+                <span class="text-[11px] sm:text-xs text-[#d7e2ff] mt-0.5 font-medium">میانگین واریز روزانه</span>
+              </div>
+              <div class="p-3.5 rounded-2xl bg-white/5 border border-emerald-400/30 backdrop-blur-md flex flex-col items-center justify-center text-center shadow-lg">
+                <span class="font-mono text-xl sm:text-2xl font-black text-emerald-400">۵.۰ / ۵</span>
+                <span class="text-[11px] sm:text-xs text-[#d7e2ff] mt-0.5 font-medium">شاخص رضایت همکاران</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 Luxury Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            
+            <!-- Card 1: سارا احمدی -->
+            <div class="relative rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_25px_50px_-12px_rgba(250,188,79,0.25)] border-2 bg-gradient-to-br from-[#122b52] via-[#163665] to-[#0c1f3b] border-[#fabc4f] shadow-xl">
+              <div>
+                <div class="flex items-start justify-between gap-4 mb-4">
+                  <div class="flex items-center gap-3.5">
+                    <div class="relative w-14 h-14 rounded-2xl overflow-hidden p-0.5 bg-gradient-to-tr from-[#fabc4f] via-white to-[#fabc4f] shrink-0 shadow-md">
+                      <img
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80"
+                        alt="سارا احمدی"
+                        class="w-full h-full object-cover rounded-[14px]"
+                        loading="lazy"
+                      />
+                      <div class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center border-2 border-[#0a1e3f] shadow">
+                        <span class="material-symbols-outlined text-[12px] font-black">check</span>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-col text-right">
+                      <div class="flex items-center gap-1.5">
+                        <h4 class="font-black text-base sm:text-lg text-white group-hover:text-[#fabc4f] transition-colors">
+                          سارا احمدی
+                        </h4>
+                        <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 font-bold">
+                          احراز شده
+                        </span>
+                      </div>
+                      <span class="text-xs text-[#fabc4f] font-semibold mt-0.5">
+                        ادمین پاسخگویی چت نیازمندی‌ها
+                      </span>
+                      <span class="text-[11px] text-[#b0c7f8]">
+                        دورکاری از اصفهان
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-[#fabc4f] shrink-0 group-hover:bg-[#fabc4f]/20 transition-colors">
+                    <span class="material-symbols-outlined text-[24px]">format_quote</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-between gap-2 py-2.5 px-3 rounded-xl bg-black/25 border border-white/10 mb-4 text-xs">
+                  <div class="flex items-center gap-1 text-[#fabc4f]">
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="text-[11px] text-[#ffd977] font-bold mr-1">۵ از ۵</span>
+                  </div>
+                  <span class="text-[11px] text-[#d7e2ff] font-medium">
+                    شروع فعالیت: ۵ ماه پیش
+                  </span>
+                </div>
+
+                <p class="text-xs sm:text-sm text-[#d9e4ff] leading-relaxed text-justify mb-5 font-normal">
+                  «من اوایل واقعاً باورم نمی‌شد که با روزی ۴ ساعت پاسخگویی بشه تسویه روزانه تضمینی گرفت. اما الان ۵ ماهه دقیقاً هر شب ساعت ۱۲ واریزی به حسابم میشینه. فایل آموزشی آقای نعمتی فوق‌العاده ساده و روون بود و بدون هیچ سردرگمی کار رو استارت زدم.»
+                </p>
+              </div>
+
+              <div class="pt-4 border-t border-white/15 flex flex-col gap-2">
+                <div class="flex items-center justify-between text-xs">
+                  <span class="text-[#b0c7f8] flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px] text-[#fabc4f]">schedule</span>
+                    <span>۴ ساعت در روز</span>
+                  </span>
+                  <span class="text-emerald-300 font-bold text-[11px] bg-emerald-950/60 px-2 py-0.5 rounded-lg border border-emerald-500/30">
+                    شیفت عصرگاهی (۱۴ الی ۱۸)
+                  </span>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-gradient-to-r from-emerald-500/20 via-emerald-400/25 to-emerald-500/20 border border-emerald-400/50 flex items-center justify-between">
+                  <span class="text-[11px] font-bold text-emerald-200">دریافتی تسویه شده:</span>
+                  <span class="text-xs sm:text-sm font-black text-emerald-300 font-mono">
+                    ۱,۸۵۰,۰۰۰ تومان در روز
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: محمدرضا کمالی -->
+            <div class="relative rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_25px_50px_-12px_rgba(250,188,79,0.25)] border-2 bg-gradient-to-br from-[#0e2343]/90 via-[#132c52]/90 to-[#0a1b35]/90 border-[#2a4575] hover:border-[#fabc4f]/80 shadow-lg">
+              <div>
+                <div class="flex items-start justify-between gap-4 mb-4">
+                  <div class="flex items-center gap-3.5">
+                    <div class="relative w-14 h-14 rounded-2xl overflow-hidden p-0.5 bg-gradient-to-tr from-[#fabc4f] via-white to-[#fabc4f] shrink-0 shadow-md">
+                      <img
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=250&q=80"
+                        alt="محمدرضا کمالی"
+                        class="w-full h-full object-cover rounded-[14px]"
+                        loading="lazy"
+                      />
+                      <div class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center border-2 border-[#0a1e3f] shadow">
+                        <span class="material-symbols-outlined text-[12px] font-black">check</span>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-col text-right">
+                      <div class="flex items-center gap-1.5">
+                        <h4 class="font-black text-base sm:text-lg text-white group-hover:text-[#fabc4f] transition-colors">
+                          محمدرضا کمالی
+                        </h4>
+                        <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 font-bold">
+                          احراز شده
+                        </span>
+                      </div>
+                      <span class="text-xs text-[#fabc4f] font-semibold mt-0.5">
+                        ادمین ارشد شیفت شب
+                      </span>
+                      <span class="text-[11px] text-[#b0c7f8]">
+                        تهران - حضور دوره‌ای در دفتر صادقیه
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-[#fabc4f] shrink-0 group-hover:bg-[#fabc4f]/20 transition-colors">
+                    <span class="material-symbols-outlined text-[24px]">format_quote</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-between gap-2 py-2.5 px-3 rounded-xl bg-black/25 border border-white/10 mb-4 text-xs">
+                  <div class="flex items-center gap-1 text-[#fabc4f]">
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="text-[11px] text-[#ffd977] font-bold mr-1">۵ از ۵</span>
+                  </div>
+                  <span class="text-[11px] text-[#d7e2ff] font-medium">
+                    شروع فعالیت: ۸ ماه پیش
+                  </span>
+                </div>
+
+                <p class="text-xs sm:text-sm text-[#d9e4ff] leading-relaxed text-justify mb-5 font-normal">
+                  «چون روزها دانشجو هستم، شیفت شب ادمین سنتر بهترین فرصت برای من بود. پشتیبانی ۲۴ ساعته مجموعه واقعاً بی‌نظیره. حتی برای اطمینان بیشتر حضوری به دفتر صادقیه فلکه دوم رفتم و با آقای نعمتی صحبت کردم؛ شفافیت و نظم اداری‌شون مثال‌زدنیه.»
+                </p>
+              </div>
+
+              <div class="pt-4 border-t border-white/15 flex flex-col gap-2">
+                <div class="flex items-center justify-between text-xs">
+                  <span class="text-[#b0c7f8] flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px] text-[#fabc4f]">schedule</span>
+                    <span>۴.۵ ساعت در شیفت شب</span>
+                  </span>
+                  <span class="text-emerald-300 font-bold text-[11px] bg-emerald-950/60 px-2 py-0.5 rounded-lg border border-emerald-500/30">
+                    شیفت شبانه (۲۲ الی ۲:۳۰ بامداد)
+                  </span>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-gradient-to-r from-emerald-500/20 via-emerald-400/25 to-emerald-500/20 border border-emerald-400/50 flex items-center justify-between">
+                  <span class="text-[11px] font-bold text-emerald-200">دریافتی تسویه شده:</span>
+                  <span class="text-xs sm:text-sm font-black text-emerald-300 font-mono">
+                    ۲,۱۰۰,۰۰۰ تومان در روز
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: فاطمه نوری -->
+            <div class="relative rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_25px_50px_-12px_rgba(250,188,79,0.25)] border-2 bg-gradient-to-br from-[#0e2343]/90 via-[#132c52]/90 to-[#0a1b35]/90 border-[#2a4575] hover:border-[#fabc4f]/80 shadow-lg">
+              <div>
+                <div class="flex items-start justify-between gap-4 mb-4">
+                  <div class="flex items-center gap-3.5">
+                    <div class="relative w-14 h-14 rounded-2xl overflow-hidden p-0.5 bg-gradient-to-tr from-[#fabc4f] via-white to-[#fabc4f] shrink-0 shadow-md">
+                      <img
+                        src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=250&q=80"
+                        alt="فاطمه نوری"
+                        class="w-full h-full object-cover rounded-[14px]"
+                        loading="lazy"
+                      />
+                      <div class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center border-2 border-[#0a1e3f] shadow">
+                        <span class="material-symbols-outlined text-[12px] font-black">check</span>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-col text-right">
+                      <div class="flex items-center gap-1.5">
+                        <h4 class="font-black text-base sm:text-lg text-white group-hover:text-[#fabc4f] transition-colors">
+                          فاطمه نوری
+                        </h4>
+                        <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 font-bold">
+                          احراز شده
+                        </span>
+                      </div>
+                      <span class="text-xs text-[#fabc4f] font-semibold mt-0.5">
+                        ادمین پاسخگویی و ثبت سفارش
+                      </span>
+                      <span class="text-[11px] text-[#b0c7f8]">
+                        دورکاری از شیراز
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-[#fabc4f] shrink-0 group-hover:bg-[#fabc4f]/20 transition-colors">
+                    <span class="material-symbols-outlined text-[24px]">format_quote</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-between gap-2 py-2.5 px-3 rounded-xl bg-black/25 border border-white/10 mb-4 text-xs">
+                  <div class="flex items-center gap-1 text-[#fabc4f]">
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="text-[11px] text-[#ffd977] font-bold mr-1">۵ از ۵</span>
+                  </div>
+                  <span class="text-[11px] text-[#d7e2ff] font-medium">
+                    شروع فعالیت: ۳ ماه پیش
+                  </span>
+                </div>
+
+                <p class="text-xs sm:text-sm text-[#d9e4ff] leading-relaxed text-justify mb-5 font-normal">
+                  «بزرگترین مزیت این کار اینه که ساعت کاری کاملاً دست خودمه. هر زمان بچه‌ام می‌خوابه گوشی رو برمی‌دارم و به چت‌ها جواب میدم. درآمد روزانه ۱.۵ تا ۲ میلیون تومان با تسویه منظم شبانه واقعاً به معیشت خانواده‌ام کمک بزرگی کرده.»
+                </p>
+              </div>
+
+              <div class="pt-4 border-t border-white/15 flex flex-col gap-2">
+                <div class="flex items-center justify-between text-xs">
+                  <span class="text-[#b0c7f8] flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px] text-[#fabc4f]">schedule</span>
+                    <span>۵ ساعت پراکنده در روز</span>
+                  </span>
+                  <span class="text-emerald-300 font-bold text-[11px] bg-emerald-950/60 px-2 py-0.5 rounded-lg border border-emerald-500/30">
+                    ساعات شناور و منعطف
+                  </span>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-gradient-to-r from-emerald-500/20 via-emerald-400/25 to-emerald-500/20 border border-emerald-400/50 flex items-center justify-between">
+                  <span class="text-[11px] font-bold text-emerald-200">دریافتی تسویه شده:</span>
+                  <span class="text-xs sm:text-sm font-black text-emerald-300 font-mono">
+                    ۱,۶۵۰,۰۰۰ تومان در روز
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4: علی یزدانی -->
+            <div class="relative rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_25px_50px_-12px_rgba(250,188,79,0.25)] border-2 bg-gradient-to-br from-[#0e2343]/90 via-[#132c52]/90 to-[#0a1b35]/90 border-[#2a4575] hover:border-[#fabc4f]/80 shadow-lg">
+              <div>
+                <div class="flex items-start justify-between gap-4 mb-4">
+                  <div class="flex items-center gap-3.5">
+                    <div class="relative w-14 h-14 rounded-2xl overflow-hidden p-0.5 bg-gradient-to-tr from-[#fabc4f] via-white to-[#fabc4f] shrink-0 shadow-md">
+                      <img
+                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=250&q=80"
+                        alt="علی یزدانی"
+                        class="w-full h-full object-cover rounded-[14px]"
+                        loading="lazy"
+                      />
+                      <div class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center border-2 border-[#0a1e3f] shadow">
+                        <span class="material-symbols-outlined text-[12px] font-black">check</span>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-col text-right">
+                      <div class="flex items-center gap-1.5">
+                        <h4 class="font-black text-base sm:text-lg text-white group-hover:text-[#fabc4f] transition-colors">
+                          علی یزدانی
+                        </h4>
+                        <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 font-bold">
+                          احراز شده
+                        </span>
+                      </div>
+                      <span class="text-xs text-[#fabc4f] font-semibold mt-0.5">
+                        ادمین تخصصی متقاعدسازی و چت
+                      </span>
+                      <span class="text-[11px] text-[#b0c7f8]">
+                        دورکاری از مشهد
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-[#fabc4f] shrink-0 group-hover:bg-[#fabc4f]/20 transition-colors">
+                    <span class="material-symbols-outlined text-[24px]">format_quote</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-between gap-2 py-2.5 px-3 rounded-xl bg-black/25 border border-white/10 mb-4 text-xs">
+                  <div class="flex items-center gap-1 text-[#fabc4f]">
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="text-[11px] text-[#ffd977] font-bold mr-1">۵ از ۵</span>
+                  </div>
+                  <span class="text-[11px] text-[#d7e2ff] font-medium">
+                    شروع فعالیت: ۶ ماه پیش
+                  </span>
+                </div>
+
+                <p class="text-xs sm:text-sm text-[#d9e4ff] leading-relaxed text-justify mb-5 font-normal">
+                  «الگوهای آماده و سناریوهای پاسخگویی که در فایل آموزشی به ما دادن فوق‌العاده کاربردی بود. یاد گرفتم چطور با احترام و سرعت بالا پیام‌ها رو مدیریت کنم. درآمد بالای ۱.۵ میلیون هر شب واریز میشه و تو این ۶ ماه یک بار هم تاخیر نداشته.»
+                </p>
+              </div>
+
+              <div class="pt-4 border-t border-white/15 flex flex-col gap-2">
+                <div class="flex items-center justify-between text-xs">
+                  <span class="text-[#b0c7f8] flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px] text-[#fabc4f]">schedule</span>
+                    <span>۵ ساعت در روز</span>
+                  </span>
+                  <span class="text-emerald-300 font-bold text-[11px] bg-emerald-950/60 px-2 py-0.5 rounded-lg border border-emerald-500/30">
+                    شیفت صبح و ظهر (۱۰ الی ۱۵)
+                  </span>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-gradient-to-r from-emerald-500/20 via-emerald-400/25 to-emerald-500/20 border border-emerald-400/50 flex items-center justify-between">
+                  <span class="text-[11px] font-bold text-emerald-200">دریافتی تسویه شده:</span>
+                  <span class="text-xs sm:text-sm font-black text-emerald-300 font-mono">
+                    ۲,۴۰۰,۰۰۰ تومان در روز
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5: مهسا ابراهیمی -->
+            <div class="relative rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 group hover:-translate-y-2 hover:shadow-[0_25px_50px_-12px_rgba(250,188,79,0.25)] border-2 bg-gradient-to-br from-[#0e2343]/90 via-[#132c52]/90 to-[#0a1b35]/90 border-[#2a4575] hover:border-[#fabc4f]/80 shadow-lg md:col-span-2 lg:col-span-1">
+              <div>
+                <div class="flex items-start justify-between gap-4 mb-4">
+                  <div class="flex items-center gap-3.5">
+                    <div class="relative w-14 h-14 rounded-2xl overflow-hidden p-0.5 bg-gradient-to-tr from-[#fabc4f] via-white to-[#fabc4f] shrink-0 shadow-md">
+                      <img
+                        src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=250&q=80"
+                        alt="مهسا ابراهیمی"
+                        class="w-full h-full object-cover rounded-[14px]"
+                        loading="lazy"
+                      />
+                      <div class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-emerald-500 text-white flex items-center justify-center border-2 border-[#0a1e3f] shadow">
+                        <span class="material-symbols-outlined text-[12px] font-black">check</span>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-col text-right">
+                      <div class="flex items-center gap-1.5">
+                        <h4 class="font-black text-base sm:text-lg text-white group-hover:text-[#fabc4f] transition-colors">
+                          مهسا ابراهیمی
+                        </h4>
+                        <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 font-bold">
+                          احراز شده
+                        </span>
+                      </div>
+                      <span class="text-xs text-[#fabc4f] font-semibold mt-0.5">
+                        ادمین پاسخگویی نیازمندی‌ها
+                      </span>
+                      <span class="text-[11px] text-[#b0c7f8]">
+                        کرج (همکاری آنلاین و حضوری)
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-[#fabc4f] shrink-0 group-hover:bg-[#fabc4f]/20 transition-colors">
+                    <span class="material-symbols-outlined text-[24px]">format_quote</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-between gap-2 py-2.5 px-3 rounded-xl bg-black/25 border border-white/10 mb-4 text-xs">
+                  <div class="flex items-center gap-1 text-[#fabc4f]">
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="material-symbols-outlined text-[18px] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span class="text-[11px] text-[#ffd977] font-bold mr-1">۵ از ۵</span>
+                  </div>
+                  <span class="text-[11px] text-[#d7e2ff] font-medium">
+                    شروع فعالیت: ۴ ماه پیش
+                  </span>
+                </div>
+
+                <p class="text-xs sm:text-sm text-[#d9e4ff] leading-relaxed text-justify mb-5 font-normal">
+                  «از توی خونه با یک گوشی معمولی کار کردن و درآمد عالی داشتن بهترین حس دنیاست. وجود نماد اعتماد الکترونیکی و دفتر رسمی مجموعه در فلکه دوم صادقیه باعث شد از روز اول با خیال آسوده کارم رو شروع کنم. به هرکسی جویای کاره توصیه‌اش می‌کنم.»
+                </p>
+              </div>
+
+              <div class="pt-4 border-t border-white/15 flex flex-col gap-2">
+                <div class="flex items-center justify-between text-xs">
+                  <span class="text-[#b0c7f8] flex items-center gap-1">
+                    <span class="material-symbols-outlined text-[16px] text-[#fabc4f]">schedule</span>
+                    <span>۴ ساعت در روز</span>
+                  </span>
+                  <span class="text-emerald-300 font-bold text-[11px] bg-emerald-950/60 px-2 py-0.5 rounded-lg border border-emerald-500/30">
+                    شیفت عصر (۱۶ الی ۲۰)
+                  </span>
+                </div>
+
+                <div class="p-2.5 rounded-xl bg-gradient-to-r from-emerald-500/20 via-emerald-400/25 to-emerald-500/20 border border-emerald-400/50 flex items-center justify-between">
+                  <span class="text-[11px] font-bold text-emerald-200">دریافتی تسویه شده:</span>
+                  <span class="text-xs sm:text-sm font-black text-emerald-300 font-mono">
+                    ۱,۷۵۰,۰۰۰ تومان در روز
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Motivational Callout Banner under Testimonials -->
+          <div class="mt-12 p-6 rounded-3xl bg-gradient-to-r from-[#143265] via-[#1e468a] to-[#143265] border-2 border-[#fabc4f] shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6 text-right">
+            <div class="flex items-center gap-4">
+              <div class="w-14 h-14 rounded-2xl bg-[#fabc4f] text-[#0a254d] flex items-center justify-center shrink-0 shadow-xl font-bold">
+                <span class="material-symbols-outlined text-[32px]">handshake</span>
+              </div>
+              <div>
+                <h3 class="text-lg sm:text-xl font-black text-white">
+                  شما هم می‌توانید همین امشب به جمع همکاران راضی ما بپیوندید!
+                </h3>
+                <p class="text-xs sm:text-sm text-[#d7e2ff] mt-1 leading-relaxed">
+                  تنها با پر کردن فرم و دریافت فایل آموزشی رایگان؛ <strong class="text-[#fabc4f]">درآمد روزانه ۱ میلیون و ۵۰۰ به بالا داری و هرشب برات واریز میشه</strong>.
+                </p>
+              </div>
+            </div>
+
+            <a
+              href="#start-cooperation"
+              class="btn-gold py-3 px-7 text-xs sm:text-sm font-black shrink-0 flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105 transition-all"
+            >
+              <span>شروع فعالیت و استخدام</span>
+              <span class="material-symbols-outlined text-[20px]">arrow_back</span>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 3. BALAD LOCATION & IN-PERSON ADMISSION SECTION (اعتبار در بلد و مراجعه حضوری) -->
+      <section class="py-16 sm:py-24 bg-gradient-to-b from-white via-[#f1f5fd] to-[#e4ecfb] border-t-2 border-[#fabc4f]/50 relative overflow-hidden" id="office-location">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+          
+          <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-300 text-xs font-black shadow-sm mb-3">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+              <span>احراز هویت مکانی و اعتبار رسمی</span>
+            </div>
+            <h2 class="text-2xl sm:text-4xl font-black text-[#0a254d] tracking-tight">
+              تأییدیه رسمی در مسیریاب ایرانی «بلد» و امکان مراجعه حضوری
+            </h2>
+            <p class="text-xs sm:text-base text-[#44474e] mt-2 leading-relaxed max-w-2xl mx-auto">
+              برای آرامش خاطر و اعتماد ۱۰۰٪ شما؛ دفتر و سالن عملیات ادمین سنتر در سامانه نقشه و مسیریاب بلد ثبت و احراز صلاحیت شده است.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            
+            <!-- RIGHT: Text & Address Box -->
+            <div class="lg:col-span-7 flex flex-col gap-5 text-right order-2 lg:order-1">
+              
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-2xl bg-[#0a254d] text-[#fabc4f] flex items-center justify-center shrink-0 shadow-md">
+                  <span class="material-symbols-outlined text-[28px]">verified</span>
+                </div>
+                <div>
+                  <span class="text-xs text-[#1e5bba] font-bold block">شفافیت کامل و بدون هیچ‌گونه ابهام</span>
+                  <h3 class="text-xl sm:text-2xl font-black text-[#0a254d]">
+                    همکاری حضوری در دفتر یا دورکاری از سراسر کشور
+                  </h3>
+                </div>
+              </div>
+
+              <div class="space-y-3.5 text-xs sm:text-sm text-[#334155] leading-relaxed text-justify">
+                <!-- Trust badge statement (Instance 1) -->
+                <div class="p-4 rounded-2xl bg-gradient-to-r from-emerald-50 via-white to-amber-50 border-2 border-emerald-400 shadow-sm flex items-center gap-3">
+                  <span class="material-symbols-outlined text-emerald-600 text-[26px] shrink-0">verified_user</span>
+                  <p class="font-extrabold text-xs sm:text-sm text-[#0a254d] leading-relaxed">
+                    ما دارای نماد اعتماد فعالیت الکترونیکی هستیم و بصورت حضوری هم پذیرش افراد رو داریم (نماد ۵ ستاره را در انتهای صفحه مشاهده فرمایید).
+                  </p>
+                </div>
+
+                <p>
+                  افرادی که جویای کار، استخدام و درآمد روزانه هستند می‌توانند با نهایت اطمینان و اعتماد کامل با ادمین سنتر همکاری خود را آغاز کنند. اگر در تهران سکونت دارید، شرایط کاری به‌صورت <strong class="text-[#0a254d]">کاملاً حضوری</strong> مهیا است و می‌توانید شیفت کاری خود را داخل دفتر و سالن پاسخگویی بگذرانید و مستقیماً و بدون واسطه تشریف بیاورید تا حضوراً در خدمتتان باشیم و با <strong class="text-[#1e5bba]">آقای مهران نعمتی</strong> مدیریت و بنیان‌گذار سیستم گفتگو نمایید.
+                </p>
+
+                <p>
+                  همچنین چنانچه برایتان مقدور نیست یا در استان‌ها و شهرهای دیگر کشور حضور دارید، هیچ محدودیتی وجود ندارد؛ زیرساخت سامانه طوری برنامه‌ریزی شده که می‌توانید به‌صورت <strong class="text-emerald-700 font-bold">آنلاین و دورکاری از منزل</strong> تنها با یک گوشی هوشمند فعالیت خود را شروع کرده و تسویه درآمد روزانه ۱.۵ تا ۲ میلیون تومانی خود را هر شب دریافت نمایید.
+                </p>
+              </div>
+
+              <!-- EXACT PHYSICAL ADDRESS BOX (مراجعه حضوری به نشانی صادقیه) -->
+              <div class="p-4 sm:p-5 rounded-2xl bg-amber-50/90 border-2 border-[#fabc4f] shadow-md text-right">
+                <div class="flex items-center gap-2.5 text-[#0a254d] font-black text-sm sm:text-base mb-2">
+                  <span class="material-symbols-outlined text-[#d97706] text-[24px]">location_city</span>
+                  <span>آدرس دقیق جهت مراجعه حضوری به دفتر:</span>
+                </div>
+                
+                <div class="p-3 bg-white rounded-xl border border-amber-300 flex items-center justify-between gap-3 mb-2.5 shadow-inner">
+                  <span class="font-extrabold text-[#0a254d] text-sm sm:text-base tracking-tight">
+                    تهران، صادقیه، فلکه دوم، جنب املاک خورشید
+                  </span>
+                  <button
+                    type="button"
+                    class="copy-address-btn btn-gold py-1.5 px-3 text-xs flex items-center gap-1 shrink-0"
+                  >
+                    <span class="material-symbols-outlined text-[16px]">content_copy</span>
+                    <span>کپی آدرس</span>
+                  </button>
+                </div>
+
+                <div class="flex items-start gap-2 text-xs sm:text-[13px] text-amber-950 leading-relaxed font-medium">
+                  <span class="material-symbols-outlined text-emerald-700 text-[18px] shrink-0 mt-0.5">help</span>
+                  <p>
+                    در محدوده فلکه دوم صادقیه <strong class="text-[#0a254d]">به هرکی بگید ادمین سنتر میشناسه و راهنماییتون میکنه</strong>. همچنین کافیست در اپلیکیشن بلد نام «ادمین سنتر» را سرچ کنید تا مستقیماً به درب ورودی هدایت شوید.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
+                <a
+                  href="https://balad.ir/search?query=%D8%A7%D8%AF%D9%85%DB%8C%D9%86+%D8%B3%D9%86%D8%AA%D8%B1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-gold py-3 px-6 text-xs sm:text-sm font-black flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all"
+                >
+                  <span class="material-symbols-outlined text-[22px]">explore</span>
+                  <span>باز کردن مستقیم موقعیت در مسیریاب بلد</span>
+                </a>
+
+                <button
+                  type="button"
+                  id="copyBaladQueryBtn"
+                  class="btn-navy py-3 px-5 text-xs font-bold flex items-center justify-center gap-2"
+                >
+                  <span class="material-symbols-outlined text-[18px]">content_copy</span>
+                  <span>کپی نام جهت سرچ در بلد</span>
+                </button>
+              </div>
+
+            </div>
+
+            <!-- LEFT: Interactive Map Preview Card -->
+            <div class="lg:col-span-5 order-1 lg:order-2">
+              <div class="relative group">
+                <div class="absolute -inset-1.5 bg-gradient-to-r from-emerald-500 via-[#1e5bba] to-[#fabc4f] rounded-3xl blur-md opacity-40 group-hover:opacity-75 transition duration-500"></div>
+
+                <a
+                  href="https://balad.ir/search?query=%D8%A7%D8%AF%D9%85%DB%8C%D9%86+%D8%B3%D9%86%D8%AA%D8%B1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative block rounded-2xl bg-white border-2 border-emerald-500/60 overflow-hidden shadow-2xl transition-transform duration-300 group-hover:-translate-y-1.5"
+                  title="کلیک کنید تا موقعیت در مسیریاب بلد باز شود"
+                >
+                  <div class="bg-[#0f766e] text-white px-4 py-3 flex items-center justify-between border-b border-[#115e59]">
+                    <div class="flex items-center gap-2.5">
+                      <div class="w-8 h-8 rounded-lg bg-white text-[#0f766e] font-black text-xs flex items-center justify-center shadow-sm">
+                        <span class="material-symbols-outlined text-[20px]">near_me</span>
+                      </div>
+                      <div class="flex flex-col text-right">
+                        <span class="text-xs font-bold text-white">مسیریاب و نقشه بلد</span>
+                        <span class="text-[10px] text-emerald-100">صادقیه - فلکه دوم</span>
+                      </div>
+                    </div>
+
+                    <span class="px-2.5 py-1 rounded-full bg-emerald-900/60 text-emerald-200 text-[10px] font-bold border border-emerald-400/40 flex items-center gap-1">
+                      <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+                      <span>مکان تایید شده</span>
+                    </span>
+                  </div>
+
+                  <div class="p-3 bg-slate-50 border-b border-slate-200">
+                    <div class="bg-white rounded-xl border-2 border-emerald-500 px-3 py-2 flex items-center justify-between shadow-sm">
+                      <div class="flex items-center gap-2 text-right">
+                        <span class="material-symbols-outlined text-emerald-700 text-[20px]">search</span>
+                        <span class="text-xs sm:text-sm font-black text-[#0a254d]">ادمین سنتر</span>
+                      </div>
+                      <span class="text-[10px] bg-emerald-50 text-emerald-700 font-bold px-2 py-0.5 rounded border border-emerald-200">
+                        جستجوی فعال
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="relative h-64 sm:h-72 w-full bg-[#e8ecef] overflow-hidden flex items-center justify-center">
+                    <div class="absolute inset-0 bg-[#e5e9ec]">
+                      <svg class="w-full h-full opacity-45" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                          <pattern id="balad-grid-index" width="60" height="60" patternUnits="userSpaceOnUse">
+                            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#cbd5e1" strokeWidth="2" />
+                            <circle cx="30" cy="30" r="1.5" fill="#94a3b8" />
+                          </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#balad-grid-index)" />
+                        <path d="M -20 200 Q 150 120 400 80" fill="none" stroke="#fed7aa" strokeWidth="12" />
+                        <path d="M -20 200 Q 150 120 400 80" fill="none" stroke="#f97316" strokeWidth="2" strokeDasharray="6 4" />
+                        <path d="M 80 -20 L 160 320" fill="none" stroke="#ffffff" strokeWidth="8" />
+                        <path d="M 280 -20 L 220 320" fill="none" stroke="#ffffff" strokeWidth="6" />
+                      </svg>
+                    </div>
+
+                    <div class="absolute w-28 h-28 rounded-full bg-emerald-500/20 animate-ping pointer-events-none"></div>
+                    <div class="absolute w-16 h-16 rounded-full bg-emerald-500/30 pointer-events-none"></div>
+
+                    <div class="relative z-10 flex flex-col items-center">
+                      <div class="bg-[#0a254d] text-white px-3.5 py-2 rounded-xl shadow-2xl border-2 border-[#fabc4f] flex items-center gap-2 transform -translate-y-2 group-hover:scale-105 transition-transform">
+                        <span class="w-2.5 h-2.5 rounded-full bg-[#fabc4f] animate-pulse"></span>
+                        <div class="flex flex-col text-right">
+                          <span class="text-xs sm:text-sm font-black text-white">ادمین سنتر</span>
+                          <span class="text-[10px] text-emerald-300 font-semibold">صادقیه - جنب املاک خورشید</span>
+                        </div>
+                        <span class="material-symbols-outlined text-emerald-400 text-[18px]">verified</span>
+                      </div>
+                      <div class="w-0 h-0 border-l-[8px] border-l-transparent border-r-[8px] border-r-transparent border-t-[12px] border-t-[#0a254d] drop-shadow-md"></div>
+                    </div>
+
+                    <div class="absolute inset-0 bg-[#0a254d]/75 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center gap-2 text-white p-4 text-center">
+                      <div class="w-12 h-12 rounded-full bg-[#fabc4f] text-[#0a254d] flex items-center justify-center font-bold shadow-xl animate-bounce">
+                        <span class="material-symbols-outlined text-[28px]">open_in_new</span>
+                      </div>
+                      <span class="font-black text-sm sm:text-base text-white">کلیک کنید تا در بلد باز شود</span>
+                      <span class="text-xs text-[#b0c7f8] max-w-xs leading-relaxed">
+                        عبارت «ادمین سنتر» به‌صورت خودکار در اپلیکیشن بلد جستجو و موقعیت نمایش داده می‌شود.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="p-3.5 bg-white flex items-center justify-between border-t border-slate-200">
+                    <div class="flex items-center gap-2 text-right">
+                      <span class="material-symbols-outlined text-emerald-600 text-[22px]">location_on</span>
+                      <div>
+                        <span class="text-xs font-bold text-[#0a254d] block">لوکیشن تایید شده در برنامه بلد</span>
+                        <span class="text-[10px] text-slate-500">تهران، صادقیه، فلکه دوم</span>
+                      </div>
+                    </div>
+                    <div class="btn-gold py-1.5 px-3 text-[11px] font-bold rounded-lg flex items-center gap-1 shrink-0">
+                      <span>مسیریابی</span>
+                      <span class="material-symbols-outlined text-[14px]">turn_right</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Full-Width Trust Banner With Address -->
+          <div class="mt-10 p-5 sm:p-6 rounded-2xl bg-white border-2 border-emerald-400 shadow-xl flex flex-col md:flex-row items-center justify-between gap-5 text-right">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center shrink-0 border border-emerald-300">
+                <span class="material-symbols-outlined text-[28px]">verified_user</span>
+              </div>
+              <div class="flex flex-col gap-1">
+                <div class="flex items-center gap-2">
+                  <span class="text-base sm:text-lg font-black text-[#0a254d]">
+                    ضمانت کامل و اطمینان از صحت هویت مجموعه ادمین سنتر
+                  </span>
+                  <span class="badge-emerald text-[11px]">مراجعه حضوری آزاد است</span>
+                </div>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed">
+                  نشانی سالن پاسخگویی و دفتر اداری:{' '}
+                  <strong class="text-[#0a254d] font-black underline decoration-emerald-500">
+                    تهران، صادقیه، فلکه دوم، جنب املاک خورشید
+                  </strong>
+                  {' — '}
+                  به هرکدام از اهالی و کسبه منطقه بگویید «ادمین سنتر»، کاملاً می‌شناسند و راهنمایی‌تان می‌کنند.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 shrink-0 w-full md:w-auto">
+              <button
+                type="button"
+                class="copy-address-btn btn-navy text-xs py-2.5 px-4 flex-1 md:flex-none flex items-center justify-center gap-1.5"
+              >
+                <span class="material-symbols-outlined text-[18px]">content_copy</span>
+                <span>کپی نشانی</span>
+              </button>
+
+              <a
+                href="https://balad.ir/search?query=%D8%A7%D8%AF%D9%85%DB%8C%D9%86+%D8%B3%D9%86%D8%AA%D8%B1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-gold text-xs py-2.5 px-5 flex-1 md:flex-none flex items-center justify-center gap-1.5"
+              >
+                <span class="material-symbols-outlined text-[18px]">near_me</span>
+                <span>مسیریابی با بلد</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 4. FAQ SECTION (سوالات متداول با قابلیت جستجوی زنده) -->
+      <section class="py-16 sm:py-20 bg-white border-y border-[#d1daf4]" id="faq">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+          <div class="text-center mb-10">
+            <span class="badge-blue mb-2">پاسخ به سوالات متداول و پرتکرار</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0a254d]">
+              پرسش‌ها و پاسخ‌های متداول متقاضیان ادمین سنتر
+            </h2>
+            <p class="text-xs sm:text-sm text-[#44474e] mt-2">
+              تمام آنچه برای شفافیت کامل، وظایف روزانه و شیوه درآمد نیاز دارید در زیر گردآوری شده است:
+            </p>
+          </div>
+
+          <!-- Live Search Bar -->
+          <div class="mb-8 relative">
+            <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-[#1e5bba]">
+              <span class="material-symbols-outlined text-[22px]">search</span>
+            </div>
+            <input
+              type="text"
+              id="faqSearchInput"
+              placeholder="جستجو در بین سوالات یا کلمات کلیدی (مانند: درآمد، حضوری، فایل آموزشی، تسویه، مدیریت)..."
+              class="w-full pr-12 pl-4 py-3.5 rounded-2xl border-2 border-[#cbd5e1] focus:border-[#1e5bba] focus:ring-4 focus:ring-[#1e5bba]/10 text-xs sm:text-sm text-[#0a254d] bg-slate-50 transition-all outline-none"
+            />
+          </div>
+
+          <!-- FAQ Accordion List -->
+          <div class="space-y-4" id="faqListContainer">
+            
+            <!-- Item 1 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۱</span>
+                  <span>مجموعه ادمین سنتر چه خدماتی به مردم ارائه می‌دهد؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                ادمین سنتر مجموعه پشتیبانی و پاسخگویی به افراد جویای کار و شغل هست زیرا ادمین سنتر بستری را فراهم کرده تا افراد بدون هیچ محدودیت و شرایط خاصی در این وضعیت کنونی به راحتی بتونن استخدام بشن و استارت کار و فعالیت خودشونو از نیم ساعت بعداز خوندن فایل اموزشی بزنن و ما در فضای آنلاین چندین مورد مختلف عنوان شغلی ادمین داریم که عبارت اند از : ادمین پشتیبانی و پاسخگویی ، ادمین تولید محتوا ، ادمین ثبت اطلاعات سیستمی ، ادمین فروش محور ، ادمین برنامه ریز تقویم تولید محتوایی و ادمین های گوناگون در زمینه های شغلی متفاوت و ما در ادمین سنتر به دنبال افراد برای پاسخگویی هستیم و خدماتی که اراعه میدهیم پشتیبانی و پاسخگویی و راهنمایی به افرادی هست که به عنوان متقاضی فعالیت خود را در ادامه در ادمین سنتر به عنوان ادمین پاسخگوی دیوار شروع میکنن و ادمین سنتر موظف هست تا اخرین لحظه خدمات خود را اراعه دهد.
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۲</span>
+                  <span>متقاضیان بعداز شروع فعالیت چه کاری باید انجام دهند و چه وظایفی دارند؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                شما بعداز اینکه تایید شدید به عنوان ادمین پاسخگوی دیوار زیره نظر مجموعه ادمین سنتر نیازمند هستید به متقاضیان خدمات دهی کنید و فعالیت خود را به درستی شروع کنید . وظایفی که شما در طول ۵ ساعت تایم کاری باید انجام دهید پاسخگویی و پشتیبانی به افراد و متقاضیانی هست که در اپلیکیشن دیوار نیازمند کار و شغل هستند و اونها به شما پیام میدن و شما باید به خوبی شرایط همکاری با مجموعه ادمین سنتر رو بهشون توضیح بدین و فرصت شغلی ادمین سنتر و پاسخگویی در اپلیکیشن دیوار رو در اختیارشون بزارید و همیشه همراه انها باشید و پشتیبانی افراد رو کنید تا کار و درامد خود را استارت بزنن و خدمات خود را اراعه دهید در طول ۵ ساعت تایم کاری و دستمزد تعیین شده توسط مدیریت رو که روزانه ۱۵۰۰ تا ۲ میلیون تومان به بالا هست رو دریافت کنید.
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۳</span>
+                  <span>تایم کاری چقدره و روزانه چقدر درآمد دارم؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                متقاضیانی که استخدام میشن در ادمین سنتر به عنوان ادمین پاسخگوی دیوار روزانه حداقل ۴ الی ۵ ساعت رو بصورت پراکنده یا پشت سر هم باید اختصاص بدهند و دستمزد خود را اخر شب دریافت کنن و دستمزد تخمین زده شده ۱ میلیون پانصد تا ۲ میلیون به بالا در یک روز هست.
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۴</span>
+                  <span>چطور میتونم الان فعالیتمو شروع کنم؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                بسیار خوشحالم که در این شرایط با ادمین سنتر اشنا شدی ، چون ما بالای ۵۰۰ تا ادمین فعال در سراسر اینترنت داریم که روزانه فقط ۴ ساعت تایم میزارن و درامد بالای ۲ میلیون دارن و این رو میتونی در کانال ما مشاهده کنی بعداز اینکه استخدام شدی . برای شروع فعالیتت فقط کافیست سایت رو کاملا بخونی و با سبک کاری ادمین سنتر و قوانین و مقرراتش اشنا بشی . قرار نیس کار سختی انجام بدی فقط قول بده در پاسخگویی به افراد حوصله به خرج بدی و تایم بزاری و به خوبی مجموعه ادمین سنتر رو به افراد معرفی کنی و فایل اموزشی رایگان هم در اختیارت قرار میگیره و میفهمی کار خیلی راحت تر از چیزیه که فکر میکنی . حالا برو به بخش تکمیل فرم استخدام و تکمیل کن و فرم استخدام رو برای مدیریت مجموعه در پیامرسان ( بله ) ارسال کن . ارسال فرم استخدام + پرداخت ۲۹۹ تومان = شروع فعالیت فوری و دریافت فایل آموزشی و استارت کار و درآمد از نیم ساعت دیگ .
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۵</span>
+                  <span>چطور میتونم با مدیریت ارتباط داشته باشم؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                فیش و عکس تراکنش رو به مدیریت مجموعه در پیام رسان ( بله ) با توجه به ادرس داده شده در سایت بخش شبکه های اجتماعی و راه های ارتباطی ارسال کنید و شما مستقیما بعداز استخدام با مدیریت مجموعه فعالیت میکنید و ایشون راهنمای شما هستن.
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۶</span>
+                  <span>مدیریت مجموعه ادمین سنتر کیست؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                فردی بنام مهران نعمتی صاحب اصلی و خالق مجموعه ادمین سنتر هست و بستری رو فراهم کرده تا افراد در این شرایط بدون هیچ محدودیت خاصی کار و فعالیت خودشونو استارت بزنن و درآمد روزانه خوبی داشته باشن بدون هیچ‌پنهان کاری و مخفی کاری.
+              </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۷</span>
+                  <span>چطور میتونم اعتماد کنم؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                متقاضیان میتوانن تمامی شرایط کاری رو در وبسایت مطالعه کرده و مستقیما با مدیریت مجموعه در ارتباط باشن و در کانال بله ما عضو بشن متوجه میشید هیچ چیزی برای پنهان کاری وجود نداره و افراد زیادی درحال کار فعالیت هستن که دستمزدشان هر شب واریز میشود. علاوه بر این، دفتر ما در صادقیه پذیرش حضوری دارد و دارای نماد اعتماد الکترونیکی ۵ ستاره هستیم.
+              </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۸</span>
+                  <span>فایل آموزشی چیه؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                مدیریت مجموعه فایل آموزشی رو طراحی کرده که افراد بعداز استخدام و کار به اون دسترسی دارن تا تمامی سوالات برطرف بشه و متوجه کار و فعالیت بشن تا بتونن استارت کار خودشونو از نیم ساعت بعداز خوندن فایل بزنن.
+              </div>
+            </div>
+
+            <!-- Item 9 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۹</span>
+                  <span>آیا باید به‌صورت حضوری فعالیت کنم یا به‌صورت آنلاین؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                افرادی که جویای کار و درآمد روزانه هستند می‌توانند با ادمین سنتر همکاری کنند. شرایط کاری هم به‌صورت حضوری مهیا است و می‌توانید تایم کاری خود را داخل دفتر مجموعه بگذرانید، و یا اگر برایتان مقدور نیست می‌توانید به‌صورت دورکاری و آنلاین نیز فعالیت و همکاری خود را انجام دهید.
+              </div>
+            </div>
+
+            <!-- Item 10 -->
+            <div class="glass-card overflow-hidden faq-item border border-[#cbd5e1] transition-all">
+              <button type="button" class="faq-header w-full p-4 sm:p-5 text-right flex items-center justify-between gap-3 bg-slate-50/50 hover:bg-slate-100/50 transition-colors">
+                <span class="font-bold text-xs sm:text-sm text-[#0a254d] flex items-center gap-2">
+                  <span class="w-6 h-6 rounded-full bg-[#1e5bba] text-white flex items-center justify-center text-xs shrink-0">۱۰</span>
+                  <span>آدرس مجموعه به‌صورت حضوری کجاست؟</span>
+                </span>
+                <span class="material-symbols-outlined text-[#1e5bba] text-[22px] faq-icon">expand_more</span>
+              </button>
+              <div class="faq-answer p-4 sm:p-5 pt-1 text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify border-t border-slate-100 hidden">
+                مجموعه ادمین سنتر در اپلیکیشن و مسیریاب «بلد» تأیید شده است. شما می‌توانید نام «ادمین سنتر» را در مسیریاب بلد جستجو کنید تا لوکیشن دقیق دفتر نمایش داده شود و تشریف بیاورید و مستقیماً با مدیریت و خالق سیستم ادمین سنتر، آقای مهران نعمتی در ارتباط باشید. نشانی: تهران، صادقیه، فلکه دوم، جنب املاک خورشید.
+              </div>
+            </div>
+
+          </div>
+
+          <div id="noFaqMatch" class="hidden text-center py-8 text-sm text-slate-500">
+            موردی منطبق با عبارت جستجوی شما یافت نشد. لطفاً کلمه دیگری را امتحان کنید یا تیکت ثبت نمایید.
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. STEP-BY-STEP ROADMAP SECTION (زیر سوالات متداول با حذف هزینه ۲۹۹ تومانی از مراحل) -->
+      <section class="py-16 sm:py-20 bg-[#f1f3ff] border-b border-[#d1daf4]" id="how-it-works">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="badge-blue mb-1">نقشه راه شفافیت</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0a254d] mt-1">
+              روند قدم به قدم ثبت‌نام تا شروع فعالیت رسمی
+            </h2>
+            <p class="text-sm sm:text-base text-[#44474e] mt-2">
+              لطفاً پیش از هر اقدامی، گام‌های اجرایی زیر را با دقت بررسی نمایید:
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#0a254d] text-white flex items-center justify-center font-bold text-sm shrink-0">۱</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">بررسی شرایط و ضوابط</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">مطالعه کامل پیش‌نیازها از جمله داشتن گوشی هوشمند و تعهد به پاسخگویی منظم.</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#0a254d] text-white flex items-center justify-center font-bold text-sm shrink-0">۲</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">مطالعه سوالات متداول (FAQ)</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">آشنایی با ماهیت، وظایف روزانه، شیوه‌های حل مشکل و شیوه تسویه حساب.</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#0a254d] text-white flex items-center justify-center font-bold text-sm shrink-0">۳</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">تکمیل فرم درخواست در سایت</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">ورود دقیق نام، شماره موبایل فعال و آیدی پیام‌رسان بله جهت ایجاد پرونده دیجیتال.</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#513600] text-white flex items-center justify-center font-bold text-sm shrink-0">۴</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">تایید شرایط و شیوه تسویه حساب</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">تمامی دستمزدها هر ۱۲ شب به‌صورت منظم واریز می‌شود؛ <strong class="text-emerald-700 font-bold">درآمد روزانه ۱ میلیون و ۵۰۰ به بالا داری و هرشب برات واریز میشه</strong>.</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#513600] text-white flex items-center justify-center font-bold text-sm shrink-0">۵</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">ارسال تصویر رسید به شناسه بله</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">اطلاعات خود را در فرم وارد کرده و اسکرین شات گرفته و برای مدیریت در پیام‌رسان بله ارسال کنید.</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#513600] text-white flex items-center justify-center font-bold text-sm shrink-0">۶</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">بررسی دستی و تایید مدیریت</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">بررسی دستی جهت جلوگیری از فیشینگ و تطبیق اطلاعات متقاضی (عدم تایید خودکار روباتی).</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#1e5bba] text-white flex items-center justify-center font-bold text-sm shrink-0">۷</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">دریافت بسته و فرم تکمیلی</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">ارسال فایل‌های راهنمای آموزشی، متون سناریو پاسخگویی و فرم تخصصی ثبت شیفت.</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start">
+              <div class="w-10 h-10 rounded-full bg-[#1e5bba] text-white flex items-center justify-center font-bold text-sm shrink-0">۸</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-[#0a254d]">مطالعه مستندات و ثبت ساعات</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">مطالعه آموزش‌ها و انتخاب ترجیح ساعات پاسخگویی در روزهای هفته با نظارت پشتیبان.</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-5 flex gap-4 items-start border-2 border-emerald-500 bg-emerald-50/50">
+              <div class="w-10 h-10 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-sm shrink-0">۹</div>
+              <div>
+                <h4 class="font-bold text-sm sm:text-base text-emerald-950">آغاز رسمی فعالیت پاسخگویی و درآمد</h4>
+                <p class="text-xs sm:text-sm text-[#44474e] mt-1">ورود به چرخه پاسخگویی چت؛ <strong class="text-emerald-800 font-black">درآمد روزانه ۱ میلیون و ۵۰۰ به بالا داری و هرشب برات واریز میشه</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MOTIVATIONAL ENERGY BOOSTER BANNER BEFORE FORM -->
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 -mb-6 mt-6 relative z-20">
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-[#0a254d] via-[#163668] to-[#0a254d] text-white border-2 border-[#fabc4f] shadow-xl flex items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-[#fabc4f] text-[#0a254d] flex items-center justify-center shrink-0 font-bold shadow-md">
+              <span class="material-symbols-outlined text-[24px]">trending_up</span>
+            </div>
+            <div class="flex flex-col text-right">
+              <span class="text-xs sm:text-sm font-black text-[#fabc4f]">
+                فرصت طلایی کسب معیشت پایدار:
+              </span>
+              <span class="text-xs sm:text-sm font-bold text-white">
+                درآمد روزانه ۱ میلیون و ۵۰۰ به بالا داری و هرشب برات واریز میشه!
+              </span>
+            </div>
+          </div>
+          <span class="hidden sm:inline-block px-3 py-1 rounded-full bg-emerald-500/25 text-emerald-300 border border-emerald-400/50 text-xs font-bold shrink-0">
+            واریز اتوماتیک ساعت ۲۴
+          </span>
+        </div>
+      </div>
+
+      <!-- 6. COOPERATION FORM (فرم ثبت‌نام و درخواست همکاری) -->
+      <section class="py-16 sm:py-20 bg-white" id="start-cooperation">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+          <div class="glass-card p-6 sm:p-10 border-2 border-[#1e5bba]/30 shadow-2xl">
+            <div class="text-center mb-8">
+              <span class="badge-blue mb-2">ثبت‌نام رسمی متقاضیان</span>
+              <h3 class="text-2xl sm:text-3xl font-black text-[#0a254d]">
+                فرم شروع همکاری با ادمین سنتر
+              </h3>
+              <p class="text-xs sm:text-sm text-[#44474e] mt-1">
+                اطلاعات زیر را با دقت تکمیل کنید تا پرونده دیجیتالی شما برای پشتیبانی صادر شود:
+              </p>
+            </div>
+
+            <!-- Form Success Notification Box -->
+            <div id="formSuccessAlert" class="hidden mb-8 p-5 rounded-2xl bg-emerald-50 border-2 border-emerald-400 text-right shadow-lg">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="material-symbols-outlined text-emerald-600 text-[28px]">check_circle</span>
+                <span class="text-base font-black text-emerald-900">
+                  اطلاعات با موفقیت ثبت شد! پرونده شما صادر گردید
+                </span>
+              </div>
+              <div id="submittedSummaryBox" class="p-4 bg-white rounded-xl border border-emerald-300 space-y-2 mb-4"></div>
+              
+              <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-2 border-t border-emerald-200">
+                <button type="button" id="copySummaryBtn" class="btn-navy text-xs py-2 px-4 flex items-center justify-center gap-1.5">
+                  <span class="material-symbols-outlined text-[16px]">content_copy</span>
+                  <span>کپی متن جهت ارسال در بله</span>
+                </button>
+                <a href="#payment-section" class="btn-gold text-xs py-2 px-5 text-center flex items-center justify-center gap-1">
+                  <span>مرحله بعد: مشاهده شماره کارت و واریز</span>
+                  <span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+                </a>
+              </div>
+            </div>
+
+            <form id="cooperationForm" class="space-y-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="form-group">
+                  <label class="form-label" for="formFullName">نام و نام خانوادگی:</label>
+                  <input type="text" id="formFullName" required placeholder="مثال: علی محمدی" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="formMobile">شماره تماس فعال (پیامک/تماس):</label>
+                  <input type="tel" id="formMobile" required dir="ltr" placeholder="09123456789" class="form-input" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="form-group">
+                  <label class="form-label" for="formMessenger">آیدی شما در پیام‌رسان (بله یا تلگرام):</label>
+                  <input type="text" id="formMessenger" dir="ltr" placeholder="@YourUsername" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="formHours">میزان ساعات آمادگی در طول شبانه‌روز:</label>
+                  <select id="formHours" class="form-select">
+                    <option value="۴ الی ۶ ساعت در روز (نیمه‌وقت)">۴ الی ۶ ساعت در روز (نیمه‌وقت استاندارد)</option>
+                    <option value="۲ الی ۴ ساعت در روز (پاره‌وقت)">۲ الی ۴ ساعت در روز (پاره‌وقت)</option>
+                    <option value="شیفت شب (ساعت ۲۱ الی ۳ بامداد)">شیفت شب (ساعت ۲۱ الی ۳ بامداد)</option>
+                    <option value="بیش از ۶ ساعت در روز (تمام‌وقت)">بیش از ۶ ساعت در روز (تمام‌وقت)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="formNotes">توضیحات یا سابقه مختصر (اختیاری):</label>
+                <textarea id="formNotes" rows="3" placeholder="اگر تجربه قبلی یا دستگاه خاصی دارید بنویسید..." class="form-textarea"></textarea>
+              </div>
+
+              <div class="flex items-start gap-2.5 p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <input type="checkbox" id="termsAgreement" required class="mt-1 w-4 h-4 text-[#1e5bba] rounded border-slate-300 focus:ring-[#1e5bba]" />
+                <label for="termsAgreement" class="text-xs text-[#44474e] leading-relaxed cursor-pointer">
+                  قوانین و شرایط کاری ادمین سنتر را مطالعه کرده‌ام و متعهد به حفظ امانت، پاسخگویی صبورانه و ارسال فیش و اسکرین‌شات به پیام‌رسان بله می‌باشم.
+                </label>
+              </div>
+
+              <button type="submit" class="w-full btn-gold py-3.5 text-sm sm:text-base font-black shadow-lg">
+                <span>تکمیل و ثبت پرونده دیجیتالی استخدام</span>
+                <span class="material-symbols-outlined text-[20px]">how_to_reg</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. BANK CARD & PAYMENT SECTION (مشخصات واریز با تاکید انرژی بالا) -->
+      <section class="py-16 sm:py-20 bg-[#e1e8ff] border-t border-[#fabc4f]/30" id="payment-section">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+          <div class="text-center mb-10">
+            <span class="badge-gold mb-2">درگاه رسمی واریز و تایید حسابداری</span>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0a254d]">
+              مشخصات حساب و واریز هزینه مصوب
+            </h2>
+            <p class="text-xs sm:text-sm text-[#44474e] max-w-2xl mx-auto mt-2 leading-relaxed">
+              پس از تکمیل فرم، مبلغ مصوب را به شماره کارت رسمی زیر واریز کرده و تصویر فیش را در پیام‌رسان (بله) ارسال فرمایید.
+            </p>
+          </div>
+
+          <!-- Luxury Bank Card -->
+          <div class="bank-card">
+            <div class="bank-card-glow"></div>
+            
+            <div class="relative z-10 flex flex-col gap-6">
+              
+              <!-- Critical Payment Motivation & Trust Banner (Instance 3) -->
+              <div class="p-4 rounded-2xl bg-gradient-to-r from-emerald-500/25 via-emerald-400/35 to-emerald-500/25 border-2 border-emerald-400 flex flex-col gap-2.5 text-right shadow-lg">
+                <div class="flex items-center gap-3.5">
+                  <div class="w-11 h-11 rounded-xl bg-emerald-500 text-white flex items-center justify-center shrink-0 shadow-md">
+                    <span class="material-symbols-outlined text-[26px]">paid</span>
+                  </div>
+                  <div class="flex flex-col">
+                    <span class="text-xs sm:text-sm font-black text-[#86efac] leading-tight">
+                      خیالت کاملاً راحت باشه! درآمد روزانه ۱ میلیون و ۵۰۰ به بالا داری و هرشب برات واریز میشه
+                    </span>
+                    <span class="text-[11px] sm:text-xs text-[#d7e2ff] mt-0.5">
+                      مبلغ ۲۹۹ تومانی پشتیبانی در همان ساعت‌های ابتدایی کار با پاسخگویی به چت‌ها فوراً جبران می‌شود.
+                    </span>
+                  </div>
+                </div>
+                <div class="pt-2 border-t border-emerald-400/30 flex items-center gap-2 text-xs font-bold text-[#ffdead]">
+                  <span class="material-symbols-outlined text-[18px] text-emerald-300">verified_user</span>
+                  <span>ما دارای نماد اعتماد فعالیت الکترونیکی هستیم و بصورت حضوری هم پذیرش افراد رو داریم.</span>
+                </div>
+              </div>
+
+              <!-- Top row -->
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-white/20 pb-4 gap-3">
+                <div class="flex items-center gap-3">
+                  <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-[#ffdead]">
+                    <span class="material-symbols-outlined text-[32px]">credit_card</span>
+                  </div>
+                  <div class="flex flex-col text-right">
+                    <span class="text-xs text-[#b0c7f8]">کارت حسابداری اختصاصی مجموعه ادمین سنتر</span>
+                    <span class="text-sm font-bold text-white">سامانه امور مالی و پشتیبانی</span>
+                  </div>
+                </div>
+                <div class="text-right sm:text-left">
+                  <span class="text-xs text-[#b0c7f8] block">هزینه مصوب سامانه</span>
+                  <span class="text-xl sm:text-2xl font-black text-[#fabc4f]">
+                    ۲۹۹,۰۰۰ <span class="text-xs font-normal text-white">تومان</span>
+                  </span>
+                </div>
+              </div>
+
+              <!-- Card Number -->
+              <div class="flex flex-col gap-2 text-center py-2">
+                <span class="text-xs sm:text-sm text-[#b0c7f8]">شماره کارت معتبر واریز (به نام مهران نعمتی)</span>
+                
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-2">
+                  <span
+                    class="font-mono text-xl sm:text-3xl tracking-widest text-white font-black bg-[#0a254d]/90 px-6 py-3 rounded-xl border border-[#fabc4f]/50 select-all shadow-inner"
+                    dir="ltr"
+                  >
+                    5022 2915 9522 0581
+                  </span>
+
+                  <button
+                    type="button"
+                    id="copyCardBtn"
+                    class="btn-gold text-xs sm:text-sm py-2.5 px-5 flex items-center gap-2"
+                  >
+                    <span class="material-symbols-outlined text-[18px]">content_copy</span>
+                    <span>کپی شماره کارت</span>
+                  </button>
+                </div>
+
+                <span class="text-sm text-[#fabc4f] mt-2 font-medium">
+                  دارنده حساب: <strong class="text-white font-bold">مهران نعمتی</strong>
+                </span>
+
+                <div id="copyCardFeedback" class="hidden mx-auto mt-2 px-4 py-1.5 rounded-full bg-emerald-600 text-white text-xs font-bold shadow animate-bounce">
+                  شماره کارت ۱۶ رقمی با موفقیت در حافظه ذخیره شد!
+                </div>
+              </div>
+
+              <!-- Next Step Box -->
+              <div class="p-4 sm:p-5 rounded-2xl bg-white/10 backdrop-blur-md border border-[#fabc4f]/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3 text-right">
+                  <div class="w-12 h-12 rounded-xl bg-[#6b9cff]/20 text-[#6b9cff] flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[26px]">forward_to_inbox</span>
+                  </div>
+                  <div>
+                    <span class="text-sm sm:text-base font-bold text-white">مرحله بعد: ارسال فیش واریز</span>
+                    <p class="text-xs text-[#b0c7f8] mt-0.5">
+                      تصویر رسید پرداخت را همراه با اسکرین‌شات فرم ثبت‌نام، به شناسه بله مدیریت ارسال کنید:
+                    </p>
+                  </div>
+                </div>
+
+                <a
+                  class="btn-telegram text-xs py-2 px-5 shrink-0"
+                  dir="ltr"
+                  href="https://ble.ir/DivarEstekhdam"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span class="material-symbols-outlined text-[18px]">send</span>
+                  <span>@DivarEstekhdam</span>
+                </a>
+              </div>
+
+              <!-- Bottom Note -->
+              <div class="text-justify border-t border-white/15 pt-4 text-xs sm:text-sm text-[#b0c7f8] leading-relaxed">
+                تصویر فیش تراکنش + تصویر فرم تکمیلی استخدام رو ارسال کنید و همان لحظه فایل اموزش رایگان ارسال میشود و شروع همکاری و درامد نیم ساعت بعداز خواندن فایل اموزشی + پشتیبانی 24 ساعته مدیریت مجموعه اقای مهران نعمتی
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. SUPPORT TICKET SUBMISSION SECTION -->
+      <section class="py-16 sm:py-20 bg-white border-b border-[#d1daf4]" id="ticket-section">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+            
+            <div class="md:col-span-5 flex flex-col gap-4 text-right">
+              <span class="badge-blue self-start">واحد بازرسی و امور متقاضیان</span>
+              <h3 class="text-xl sm:text-2xl font-black text-[#0a254d]">
+                ثبت تیکت و تماس رسمی با واحد پشتیبانی
+              </h3>
+              <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                چنانچه پیش از ثبت‌نام یا پس از واریز هرگونه پرسش، پیگیری وضعیت یا نیاز به راهنمایی دارید، کارشناسان ما به صورت مستمر پاسخگوی شما خواهند بود:
+              </p>
+
+              <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-2 mt-2">
+                <div class="flex items-center gap-2 text-xs font-bold text-[#0a254d]">
+                  <span class="material-symbols-outlined text-[#1e5bba] text-[20px]">mark_email_read</span>
+                  <span>کانال ارتباطی رسمی در بله:</span>
+                </div>
+                <a href="https://ble.ir/DivarEstekhdam" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-[#1e5bba] hover:underline" dir="ltr">
+                  @DivarEstekhdam
+                </a>
+              </div>
+            </div>
+
+            <div class="md:col-span-7 glass-card p-6 border border-slate-200">
+              <div id="ticketSuccessAlert" class="hidden mb-4 p-4 rounded-xl bg-blue-50 border border-blue-300 text-right">
+                <div class="flex items-center gap-2 text-blue-900 font-bold text-xs sm:text-sm mb-2">
+                  <span class="material-symbols-outlined text-[20px] text-blue-700">task_alt</span>
+                  <span>تیکت شما با موفقیت ثبت شد و به واحد بازرسی ارجاع گردید.</span>
+                </div>
+                <div id="ticketResultBox"></div>
+              </div>
+
+              <form id="supportTicketForm" class="space-y-4">
+                <div class="form-group">
+                  <label class="form-label" for="ticketName">نام شما:</label>
+                  <input type="text" id="ticketName" required class="form-input" placeholder="نام و نام خانوادگی" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ticketPhone">شماره موبایل جهت پاسخگویی:</label>
+                  <input type="tel" id="ticketPhone" required dir="ltr" class="form-input" placeholder="0912..." />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ticketCategory">موضوع درخواست:</label>
+                  <select id="ticketCategory" class="form-select">
+                    <option value="پرسش درباره فایل آموزشی و شروع کار">پرسش درباره فایل آموزشی و شروع کار</option>
+                    <option value="پیگیری تایید فیش و ثبت‌نام">پیگیری تایید فیش و ثبت‌نام</option>
+                    <option value="هماهنگی مراجعه حضوری در صادقیه">هماهنگی مراجعه حضوری در صادقیه</option>
+                    <option value="سایر موارد و پیشنهادات">سایر موارد و پیشنهادات</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ticketMessage">شرح پیام:</label>
+                  <textarea id="ticketMessage" rows="3" required class="form-textarea" placeholder="متن پیام خود را با جزئیات بنویسید..."></textarea>
+                </div>
+                <button type="submit" class="btn-navy w-full py-2.5 text-xs sm:text-sm font-bold">
+                  ارسال پیام به واحد پشتیبانی
+                </button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. INFRASTRUCTURE & CAPABILITIES (ارائه زیرساخت و توانمندی در آخرین و پایین‌ترین بخش سایت) -->
+      <section class="py-16 sm:py-20 bg-[#f9f9ff] border-t border-[#d1daf4]" id="services">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-12 gap-4">
+            <div class="flex flex-col gap-1 max-w-2xl text-right">
+              <span class="badge-blue mb-1">بسته‌های خدمات یکپارچه</span>
+              <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0a254d]">
+                ارائه زیرساخت و توانمندسازی عملیاتی
+              </h2>
+              <p class="text-sm sm:text-base text-[#44474e] mt-1">
+                چهار ستون اصلی خدمات ادمین سنتر برای تربیت و استقرار ادمین‌های زبده چت:
+              </p>
+            </div>
+            <a
+              href="products.html"
+              class="btn-gold hidden sm:inline-flex text-xs"
+            >
+              مشاهده کاتالوگ بسته‌ها
+            </a>
+          </div>
+
+          <div class="grid-4">
+            <div class="glass-card p-6 flex flex-col justify-between h-full">
+              <div class="flex flex-col gap-3">
+                <div class="w-14 h-14 rounded-xl bg-[#d7e2ff] text-[#0a254d] flex items-center justify-center">
+                  <span class="material-symbols-outlined text-[30px]">menu_book</span>
+                </div>
+                <span class="text-xs text-[#1e5bba] font-bold">گام اول: آموزش</span>
+                <h3 class="text-lg font-bold text-[#0a254d]">بسته آموزشی جامع چت</h3>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  فایل‌های آموزشی شامل تکنیک‌های لحن متقاعدکننده، سرعت در پاسخ، مدیریت مشتریان شاکی و الگوهای آماده پاسخگویی سریع.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#e1e8ff] flex items-center justify-between text-xs text-[#0a254d] font-semibold">
+                <span>شامل متون و جزوه</span>
+                <span class="material-symbols-outlined text-[18px] text-[#fabc4f]">check_circle</span>
+              </div>
+            </div>
+
+            <div class="glass-card p-6 flex flex-col justify-between h-full">
+              <div class="flex flex-col gap-3">
+                <div class="w-14 h-14 rounded-xl bg-[#d8e2ff] text-[#1e5bba] flex items-center justify-center">
+                  <span class="material-symbols-outlined text-[30px]">fact_check</span>
+                </div>
+                <span class="text-xs text-[#1e5bba] font-bold">گام دوم: نظارت</span>
+                <h3 class="text-lg font-bold text-[#0a254d]">کنترل کیفی و پایش</h3>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  بررسی پیوسته نمونه مکالمات، رفع اشکالات احتمالی در نحوه معرفی کالا و خدمات و اصلاح لحن کارشناسان.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#e1e8ff] flex items-center justify-between text-xs text-[#0a254d] font-semibold">
+                <span>ارزیابی عملکرد</span>
+                <span class="material-symbols-outlined text-[18px] text-[#fabc4f]">check_circle</span>
+              </div>
+            </div>
+
+            <div class="glass-card p-6 flex flex-col justify-between h-full">
+              <div class="flex flex-col gap-3">
+                <div class="w-14 h-14 rounded-xl bg-[#ffdead]/50 text-[#513600] flex items-center justify-center">
+                  <span class="material-symbols-outlined text-[30px]">contact_support</span>
+                </div>
+                <span class="text-xs text-[#1e5bba] font-bold">گام سوم: پشتیبانی</span>
+                <h3 class="text-lg font-bold text-[#0a254d]">پشتیبانی فعال آنلاین</h3>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  حضور مستمر راهنمایان از طریق پیام‌رسان بله برای حل هرگونه ابهام، دریافت بازخوردها و رفع موانع فنی در حین کار.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#e1e8ff] flex items-center justify-between text-xs text-[#0a254d] font-semibold">
+                <span>در تمام روزهای کاری</span>
+                <span class="material-symbols-outlined text-[18px] text-[#fabc4f]">check_circle</span>
+              </div>
+            </div>
+
+            <div class="glass-card p-6 flex flex-col justify-between h-full">
+              <div class="flex flex-col gap-3">
+                <div class="w-14 h-14 rounded-xl bg-[#d9e2fc] text-[#0a254d] flex items-center justify-center">
+                  <span class="material-symbols-outlined text-[30px]">alt_route</span>
+                </div>
+                <span class="text-xs text-[#1e5bba] font-bold">گام چهارم: ساماندهی</span>
+                <h3 class="text-lg font-bold text-[#0a254d]">توزیع و اتصال کار</h3>
+                <p class="text-xs sm:text-sm text-[#44474e] leading-relaxed text-justify">
+                  ساماندهی ارتباط میان نیازمندی‌های پاسخگویی آگهی‌ها و ادمین‌های تایید صلاحیت‌شده بر اساس انضباط و سرعت عمل.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-[#e1e8ff] flex items-center justify-between text-xs text-[#0a254d] font-semibold">
+                <span>اتصال هوشمند پروژه‌ها</span>
+                <span class="material-symbols-outlined text-[18px] text-[#fabc4f]">check_circle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER WITH 5-STAR ENAMAD & SADEGHIYEH PHYSICAL ADDRESS -->
+    <footer class="main-footer">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        
+        <!-- PRE-FOOTER CARD: IN-PERSON ADDRESS & 5-STAR ENAMAD OPPORTUNITY CARD -->
+        <div class="mb-12 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-[#0d234a] via-[#143265] to-[#0a1e3d] border-2 border-[#fabc4f]/60 shadow-2xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <!-- Right: Address & Cooperation Opportunity (8 Cols) -->
+            <div class="lg:col-span-8 flex flex-col gap-4 text-right">
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="px-3 py-1 rounded-full bg-[#fabc4f] text-[#0a254d] text-xs font-black shadow-sm">
+                  فرصت همکاری استثنایی و تضمین درآمد
+                </span>
+                <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/40 text-xs font-bold">
+                  تسویه هر شب ساعت ۱۲
+                </span>
+              </div>
+
+              <h3 class="text-xl sm:text-2xl font-black text-white leading-tight">
+                فرصت همکاری فعال با پلتفرم مرجع ادمین سنتر
+              </h3>
+
+              <p class="text-xs sm:text-sm text-[#b0c7f8] leading-relaxed text-justify">
+                سامانه ادمین سنتر با فراهم آوردن آموزش رایگان، متریال آماده و پشتیبانی مستمر مدیریت (مهران نعمتی)، بستری ایجاد کرده تا بدون سرمایه اولیه و محدودیت زمانی مشغول به کار شوید. <strong class="text-[#fabc4f]">درآمد روزانه ۱ میلیون و ۵۰۰ به بالا داری و هرشب برات واریز میشه!</strong> همکاری هم به‌صورت آنلاین و دورکاری از سراسر کشور و هم به‌صورت حضور در دفتر فراهم است.
+              </p>
+
+              <!-- Exact Physical Address Box -->
+              <div class="p-4 rounded-2xl bg-[#0a1b36] border border-[#fabc4f]/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-right">
+                <div class="flex items-start sm:items-center gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-[#fabc4f]/20 text-[#fabc4f] flex items-center justify-center shrink-0 border border-[#fabc4f]/30">
+                    <span class="material-symbols-outlined text-[24px]">location_on</span>
+                  </div>
+                  <div class="flex flex-col">
+                    <span class="text-[11px] text-[#b0c7f8] font-medium">نشانی رسمی جهت مراجعه حضوری به دفتر:</span>
+                    <strong class="text-sm sm:text-base text-white font-extrabold tracking-tight">
+                      تهران، صادقیه، فلکه دوم، جنب املاک خورشید
+                    </strong>
+                    <span class="text-[11px] text-[#86efac] mt-0.5">
+                      در فلکه دوم به هرکی بگید ادمین سنتر میشناسه و راهنماییتون میکنه
+                    </span>
+                  </div>
+                </div>
+
+                <a
+                  href="https://balad.ir/search?query=%D8%A7%D8%AF%D9%85%DB%8C%D9%86+%D8%B3%D9%86%D8%AA%D8%B1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-gold text-xs py-2 px-4 shrink-0 flex items-center gap-1.5 self-end sm:self-center"
+                >
+                  <span class="material-symbols-outlined text-[16px]">near_me</span>
+                  <span>مسیریابی در بلد</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Left: Beautiful 5-Star e-Namad Badge (4 Cols) -->
+            <div class="lg:col-span-4 flex justify-center lg:justify-end">
+              <div class="relative group p-5 rounded-2xl bg-gradient-to-b from-white via-slate-50 to-slate-100 text-slate-800 shadow-2xl border-2 border-[#fabc4f] w-full max-w-xs text-center transform hover:scale-105 transition-all duration-300">
+                
+                <!-- Official e-Namad Emblem Artwork -->
+                <div class="relative mx-auto w-20 h-20 mb-3 flex items-center justify-center">
+                  <div class="absolute inset-0 rounded-full bg-blue-500/10 blur-sm"></div>
+                  
+                  <svg class="w-20 h-20 drop-shadow-md" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="50,4 92,25 92,75 50,96 8,75 8,25" fill="#0c4a6e" stroke="#fabc4f" stroke-width="3" />
+                    <polygon points="50,9 87,28 87,72 50,91 13,72 13,28" fill="#0284c7" opacity="0.85" />
+                    <path
+                      d="M 50 24 C 62 24 72 32 72 44 C 72 56 60 64 48 64 C 36 64 30 54 30 46 C 30 36 40 28 52 28 C 60 28 66 33 66 38 C 66 42 63 45 58 45 C 50 45 42 41 40 47 C 38 52 44 56 50 56 C 58 56 64 50 64 44"
+                      stroke="#ffffff"
+                      stroke-width="5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill="none"
+                    />
+                    <circle cx="50" cy="45" r="3.5" fill="#fabc4f" />
+                  </svg>
+
+                  <div class="absolute -bottom-1 -right-1 w-7 h-7 rounded-full bg-emerald-500 text-white flex items-center justify-center border-2 border-white shadow">
+                    <span class="material-symbols-outlined text-[16px] font-bold">check</span>
+                  </div>
+                </div>
+
+                <!-- 5 GOLDEN STARS (⭐⭐⭐⭐⭐) -->
+                <div class="flex items-center justify-center gap-1 mb-2">
+                  <span class="material-symbols-outlined text-[#eab308] text-[22px] drop-shadow-[0_2px_4px_rgba(234,179,8,0.5)] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[#eab308] text-[22px] drop-shadow-[0_2px_4px_rgba(234,179,8,0.5)] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[#eab308] text-[22px] drop-shadow-[0_2px_4px_rgba(234,179,8,0.5)] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[#eab308] text-[22px] drop-shadow-[0_2px_4px_rgba(234,179,8,0.5)] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[#eab308] text-[22px] drop-shadow-[0_2px_4px_rgba(234,179,8,0.5)] fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+
+                <div class="flex flex-col">
+                  <span class="font-black text-sm text-[#0a254d]">نماد اعتماد الکترونیکی</span>
+                  <span class="text-[11px] font-bold text-emerald-700 mt-0.5">
+                    صلاحیت کسب‌وکار تایید شده (۵ ستاره)
+                  </span>
+                  <span class="text-[10px] text-slate-500 mt-1 pt-1.5 border-t border-slate-200">
+                    احراز هویت، صلاحیت اداری و اعتبار مکانی
+                  </span>
+                </div>
+
+                <div class="mt-2.5 px-2.5 py-1 rounded-lg bg-emerald-50 border border-emerald-300 text-[10px] font-bold text-emerald-900">
+                  وضعیت نماد: فعال و دارای اصالت رسمی
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- MAIN FOOTER 4-COLUMN GRID -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-[#243b64]/60 text-right">
+          
+          <!-- Col 1: Brand & Logo -->
+          <div>
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-xl overflow-hidden border border-[#fabc4f]/60 shadow-sm shrink-0">
+                <img alt="لوگوی ادمین سنتر (AC)" class="w-full h-full object-cover" src="assets/images/logo.jpg" />
+              </div>
+              <div>
+                <span class="text-xl font-black text-[#ffdead] block leading-tight">ادمین سنتر</span>
+                <span class="text-[10px] text-[#86efac] font-bold">Admin Center (AC)</span>
+              </div>
+            </div>
+            <p class="text-xs text-[#b0c7f8] font-medium mb-2">مدیریت عالی: مهران نعمتی</p>
+            <p class="text-xs text-[#d9e2fc]/80 leading-relaxed text-justify mb-3">
+              ادمین سنتر پلتفرم تخصصی آموزش و هماهنگی ادمین‌های پاسخگویی است و هیچ‌گونه ادعای وابستگی به سازمان‌های دولتی، دیوار یا استخدام دولتی ندارد.
+            </p>
+            <div class="text-[11px] text-[#fabc4f] font-bold">
+              درآمد روزانه ۱.۵ تا ۲ میلیون تومان با تسویه شبانه
+            </div>
+          </div>
+
+          <!-- Col 2: Quick Links -->
+          <div>
+            <span class="text-sm sm:text-base font-bold text-[#d8e2ff] block mb-3">
+              صفحات و دسترسی سریع
+            </span>
+            <div class="flex flex-col gap-1">
+              <a href="index.html" class="footer-link text-right">صفحه اصلی</a>
+              <a href="products.html" class="footer-link text-right">بسته‌های استخدامی و خدمات</a>
+              <a href="about.html" class="footer-link text-right">درباره ما و شفافیت قانونی</a>
+              <a href="contact.html" class="footer-link text-right">تماس، پشتیبانی و بازرسی</a>
+            </div>
+          </div>
+
+          <!-- Col 3: Support, Channels & In-Person Address -->
+          <div>
+            <span class="text-sm sm:text-base font-bold text-[#d8e2ff] block mb-3">
+              پشتیبانی و ارتباطات
+            </span>
+            <p class="text-xs text-[#d9e2fc]/80 mb-1.5">
+              کانال و شناسه رسمی پشتیبانی در پیام‌رسان بله:
+            </p>
+            <a
+              class="inline-flex items-center gap-2 text-[#ffdead] text-sm font-bold hover:underline mb-2"
+              dir="ltr"
+              href="https://ble.ir/DivarEstekhdam"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="material-symbols-outlined text-[18px]">support_agent</span>
+              <span>@DivarEstekhdam</span>
+            </a>
+            
+            <div class="flex items-center gap-2 text-[#6b9cff] mb-3">
+              <span class="material-symbols-outlined text-[18px]">verified</span>
+              <span class="text-xs font-medium">کانال تاییدشده و اختصاصی</span>
+            </div>
+
+            <div class="pt-2 border-t border-white/10 text-xs text-[#b0c7f8]">
+              <span class="text-slate-400 block mb-0.5">آدرس دفتر مرکزی:</span>
+              <span class="text-white font-medium">تهران، صادقیه، فلکه دوم، جنب املاک خورشید</span>
+            </div>
+          </div>
+
+          <!-- Col 4: Trust & Guarantees -->
+          <div>
+            <span class="text-sm sm:text-base font-bold text-[#d8e2ff] block mb-3">
+              ضمانت و اعتبار ساختاری
+            </span>
+            <div class="p-4 rounded-xl bg-[#243b64]/40 border border-[#1e5bba]/30 mb-3">
+              <div class="flex items-center gap-2 text-[#6b9cff] mb-1">
+                <span class="material-symbols-outlined text-[20px]">security</span>
+                <span class="text-xs sm:text-sm font-bold text-white">پروتکل امنیت داده‌ها</span>
+              </div>
+              <p class="text-xs text-[#b0c7f8] leading-relaxed text-justify">
+                کلیه تعاملات و فرآیندهای مالی با بالاترین استانداردهای امنیتی و شفافیت عملیاتی محافظت می‌گردند.
+              </p>
+            </div>
+
+            <div class="p-3 rounded-xl bg-emerald-950/40 border border-emerald-500/40 flex items-center gap-2 text-emerald-300 text-xs">
+              <span class="material-symbols-outlined text-[20px] text-emerald-400">workspace_premium</span>
+              <span class="font-bold">دارای اینماد ۵ ستاره معتبر و فعال</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- BOTTOM COPYRIGHT -->
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#b0c7f8]">
+          <p>© کلیه حقوق مادی و معنوی برای ادمین سنتر محفوظ است.</p>
+          <p class="text-[#fabc4f] font-medium">
+            زیرساخت نظارتی و توسعه مستقل اداری - مدیریت مهران نعمتی
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FAST ORDER MODAL (POPUP FOR BALE & TELEGRAM MESSAGING) -->
+    <div id="orderModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
+      <div class="relative w-full max-w-lg rounded-3xl bg-white shadow-2xl border-2 border-[#fabc4f] overflow-hidden text-right">
+        <div class="p-5 bg-[#0a254d] text-white flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-[#fabc4f]">send</span>
+            <h3 class="font-bold text-base text-white">سفارش و ارتباط مستقیم جهت شروع فعالیت</h3>
+          </div>
+          <button type="button" class="close-modal-btn text-white/80 hover:text-white p-1">
+            <span class="material-symbols-outlined">close</span>
+          </button>
+        </div>
+
+        <div class="p-6 space-y-4">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-between">
+            <span id="modalPackageTitle" class="font-bold text-sm text-[#0a254d]">بسته استخدام ادمین پاسخگوی دیوار</span>
+            <span id="modalPackagePrice" class="font-mono font-bold text-sm text-emerald-700">۲۹۹,۰۰۰ تومان</span>
+          </div>
+
+          <p class="text-xs text-slate-600 leading-relaxed">
+            جهت ارسال فیش، اسکرین‌شات و شروع فوری کار، یکی از پیام‌رسان‌های زیر را برای ارسال مستقیم پیام به پشتیبانی انتخاب نمایید:
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+            <a
+              id="modalBaleLink"
+              href="https://ble.ir/DivarEstekhdam"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-gold py-3 px-4 text-xs font-black flex items-center justify-center gap-2"
+            >
+              <span class="material-symbols-outlined text-[20px]">chat</span>
+              <span>ارسال در پیام‌رسان بله</span>
+            </a>
+
+            <a
+              id="modalTelegramLink"
+              href="https://t.me/DivarEstekhdam"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-telegram py-3 px-4 text-xs font-black flex items-center justify-center gap-2"
+            >
+              <span class="material-symbols-outlined text-[20px]">send</span>
+              <span>ارسال در تلگرام</span>
+            </a>
+          </div>
+
+          <div class="text-[11px] text-slate-500 pt-2 border-t border-slate-200">
+            شناسه کانال و ارتباط رسمی: <strong class="text-[#0a254d]">@DivarEstekhdam</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vanilla JavaScript Entry Point -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

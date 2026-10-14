@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تماس، پشتیبانی و ثبت تیکت رسمی | ادمین سنتر</title>
+    <meta name="description" content="ارتباط مستقیم با واحد پشتیبانی و مدیریت ادمین سنتر، ارسال تیکت و مراجعه حضوری به دفتر تهران فلکه دوم صادقیه." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="bg-[#f9f9ff] text-[#121b2e] antialiased selection:bg-[#fabc4f] selection:text-[#281900] font-['Vazirmatn',sans-serif]">
+    
+    <!-- Top Notice Bar -->
+    <aside class="top-notice-bar">
+      <div class="max-w-7xl mx-auto top-notice-content">
+        <div class="flex items-center gap-2">
+          <span class="pulse-dot"></span>
+          <span class="font-bold text-xs sm:text-sm text-[#ffdead]">
+            ما دارای نماد اعتماد فعالیت الکترونیکی هستیم و بصورت حضوری هم پذیرش افراد رو داریم
+          </span>
+          <span class="text-[11px] text-[#b0c7f8] hidden md:inline">
+            (مشاهده نماد ۵ ستاره در انتهای صفحه)
+          </span>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="https://ble.ir/DivarEstekhdam" target="_blank" rel="noopener noreferrer" class="text-[#ffdead] font-bold hover:underline flex items-center gap-1 text-xs sm:text-sm">
+            <span>شناسه رسمی در بله:</span>
+            <span dir="ltr" class="font-mono text-white">@DivarEstekhdam</span>
+          </a>
+          <span class="text-[#c4c6d0] opacity-40 hidden md:inline">|</span>
+          <span class="text-emerald-300 hidden md:inline text-xs font-semibold">پذیرش حضوری در صادقیه</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Header -->
+    <header class="glass-nav">
+      <div class="max-w-7xl mx-auto h-20 px-4 sm:px-6 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group text-right cursor-pointer no-underline">
+          <div class="w-11 h-11 rounded-xl overflow-hidden shadow-md border-2 border-[#fabc4f]/70 shrink-0 group-hover:scale-105 transition-transform bg-[#0a254d]">
+            <img alt="لوگوی ادمین سنتر (AC)" class="w-full h-full object-cover" src="assets/images/logo.jpg" />
+          </div>
+          <div class="flex flex-col">
+            <span class="font-black text-lg sm:text-xl text-[#0a254d] tracking-tight">ادمین سنتر</span>
+            <span class="text-[11px] sm:text-xs text-[#15803d] font-bold">پلتفرم مرجع همکاری ادمین پاسخگوی اپلیکیشن دیوار</span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-5 text-sm font-medium text-[#44474e]">
+          <a href="index.html" class="hover:text-[#1e5bba] transition-colors pb-1">صفحه اصلی</a>
+          <a href="products.html" class="hover:text-[#1e5bba] transition-colors pb-1">بسته‌ها و خدمات</a>
+          <a href="about.html" class="hover:text-[#1e5bba] transition-colors pb-1">درباره ما و شفافیت</a>
+          <a href="contact.html" class="text-[#1e5bba] font-bold border-b-2 border-[#1e5bba] pb-1 transition-colors">تماس و پشتیبانی</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="index.html#start-cooperation" class="btn-gold hidden sm:inline-flex text-xs py-2 px-4 shadow-sm">
+            شروع سریع همکاری
+          </a>
+          <button type="button" id="mobileMenuBtn" class="lg:hidden p-2 text-[#0a254d] rounded-lg hover:bg-slate-100" aria-label="منوی سایت">
+            <span class="material-symbols-outlined text-[26px]">menu</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobileNavDrawer" class="hidden lg:hidden bg-white/95 backdrop-blur-md border-b border-slate-200 px-4 py-4 shadow-xl">
+        <nav class="flex flex-col gap-2.5 text-right">
+          <a href="index.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">صفحه اصلی</a>
+          <a href="products.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">بسته‌ها و خدمات</a>
+          <a href="about.html" class="py-2 px-2 text-right rounded-lg text-[#44474e] hover:bg-slate-50">درباره ما و شفافیت</a>
+          <a href="contact.html" class="py-2 px-2 text-right rounded-lg bg-blue-50 text-[#1e5bba] font-bold">تماس و ثبت تیکت</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <!-- Contact Hero -->
+      <section class="py-16 sm:py-20 bg-gradient-to-b from-[#0a254d] to-[#153460] text-white text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+          <span class="badge-gold mb-3">کانال‌های ارتباطی و پشتیبانی ۲۴ ساعته</span>
+          <h1 class="text-3xl sm:text-5xl font-black text-white mb-4">
+            تماس، پشتیبانی و ثبت تیکت رسمی
+          </h1>
+          <p class="text-xs sm:text-base text-[#d7e2ff] leading-relaxed max-w-2xl mx-auto">
+            ارتباط مستقیم با مدیریت مجموعه (مهران نعمتی)، ارسال تیکت و هماهنگی جهت مراجعه حضوری به دفتر مرکزی ادمین سنتر در تهران:
+          </p>
+        </div>
+      </section>
+
+      <!-- Channels & Form -->
+      <section class="py-16 sm:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+            
+            <!-- Left Info Cards (5 Cols) -->
+            <div class="lg:col-span-5 space-y-6">
+              
+              <!-- Card 1: Bale -->
+              <div class="glass-card p-6 border-r-4 border-[#fabc4f] shadow-md">
+                <div class="flex items-center gap-3 mb-2">
+                  <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center">
+                    <span class="material-symbols-outlined text-[24px]">chat</span>
+                  </div>
+                  <div>
+                    <h3 class="font-black text-[#0a254d] text-base">پیام‌رسان رسمی (بله)</h3>
+                    <span class="text-xs text-slate-500">پاسخگویی سریع به رسیدها و متقاضیان</span>
+                  </div>
+                </div>
+                <p class="text-xs text-[#44474e] mb-3 leading-relaxed">
+                  ارسال اسکرین‌شات فرم ثبت‌نام و فیش واریزی جهت دریافت فوری فایل آموزشی:
+                </p>
+                <a href="https://ble.ir/DivarEstekhdam" target="_blank" rel="noopener noreferrer" class="btn-gold text-xs py-2 px-4 inline-flex items-center gap-1.5" dir="ltr">
+                  <span>@DivarEstekhdam</span>
+                  <span class="material-symbols-outlined text-[16px]">send</span>
+                </a>
+              </div>
+
+              <!-- Card 2: Telegram -->
+              <div class="glass-card p-6 border-r-4 border-[#2481cc] shadow-md">
+                <div class="flex items-center gap-3 mb-2">
+                  <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center">
+                    <span class="material-symbols-outlined text-[24px]">send</span>
+                  </div>
+                  <div>
+                    <h3 class="font-black text-[#0a254d] text-base">کانال و آی‌دی تلگرام</h3>
+                    <span class="text-xs text-slate-500">اطلاعیه‌ها و ارتباط فوری</span>
+                  </div>
+                </div>
+                <p class="text-xs text-[#44474e] mb-3 leading-relaxed">
+                  مشاهده نتایج، گزارش تسویه‌های روزانه و ارتباط با مدیریت:
+                </p>
+                <a href="https://t.me/DivarEstekhdam" target="_blank" rel="noopener noreferrer" class="btn-telegram text-xs py-2 px-4 inline-flex items-center gap-1.5" dir="ltr">
+                  <span>@DivarEstekhdam</span>
+                  <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+                </a>
+              </div>
+
+              <!-- Card 3: In-person -->
+              <div class="glass-card p-6 border-r-4 border-emerald-500 shadow-md bg-emerald-50/20">
+                <div class="flex items-center gap-3 mb-2">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center">
+                    <span class="material-symbols-outlined text-[24px]">location_on</span>
+                  </div>
+                  <div>
+                    <h3 class="font-black text-[#0a254d] text-base">دفتر مراجعه حضوری</h3>
+                    <span class="text-xs text-emerald-700 font-bold">پذیرش حضوری در تهران</span>
+                  </div>
+                </div>
+                <p class="text-xs text-[#334155] leading-relaxed mb-3">
+                  نشانی: <strong>تهران، صادقیه، فلکه دوم، جنب املاک خورشید</strong>
+                  <br />
+                  در محدوده فلکه دوم به هرکی بگید ادمین سنتر میشناسه و راهنماییتون میکنه. در مسیریاب بلد هم تایید شده است.
+                </p>
+                <a href="https://balad.ir/search?query=%D8%A7%D8%AF%D9%85%DB%8C%D9%86+%D8%B3%D9%86%D8%AA%D8%B1" target="_blank" rel="noopener noreferrer" class="btn-navy text-xs py-2 px-4 inline-flex items-center gap-1.5">
+                  <span class="material-symbols-outlined text-[16px]">near_me</span>
+                  <span>مسیریابی در بلد</span>
+                </a>
+              </div>
+
+            </div>
+
+            <!-- Right: Interactive Ticketing Form (7 Cols) -->
+            <div class="lg:col-span-7 glass-card p-6 sm:p-8 border border-slate-300 shadow-xl">
+              <span class="badge-blue mb-2">ثبت مستقیم در سامانه تیکتینگ</span>
+              <h3 class="text-xl sm:text-2xl font-black text-[#0a254d] mb-2">
+                ارسال تیکت و پیام رسمی به واحد نظارت
+              </h3>
+              <p class="text-xs sm:text-sm text-[#44474e] mb-6">
+                پیام شما مستقیماً توسط کارشناسان یا مهران نعمتی بررسی و پاسخ داده می‌شود:
+              </p>
+
+              <div id="ticketSuccessAlert" class="hidden mb-6 p-4 rounded-xl bg-emerald-50 border-2 border-emerald-400 text-right">
+                <div class="flex items-center gap-2 text-emerald-900 font-bold text-sm mb-2">
+                  <span class="material-symbols-outlined text-emerald-600">check_circle</span>
+                  <span>تیکت شما با موفقیت ثبت شد!</span>
+                </div>
+                <div id="ticketResultBox"></div>
+              </div>
+
+              <form id="supportTicketForm" class="space-y-4">
+                <div class="form-group">
+                  <label class="form-label" for="ticketName">نام و نام خانوادگی:</label>
+                  <input type="text" id="ticketName" required class="form-input" placeholder="مثال: رضا مرادی" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ticketPhone">شماره موبایل فعال:</label>
+                  <input type="tel" id="ticketPhone" required dir="ltr" class="form-input" placeholder="09123456789" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ticketCategory">موضوع پیام:</label>
+                  <select id="ticketCategory" class="form-select">
+                    <option value="پرسش درباره فایل آموزشی و شروع کار">پرسش درباره فایل آموزشی و شروع کار</option>
+                    <option value="پیگیری تایید فیش و ثبت‌نام">پیگیری تایید فیش و ثبت‌نام</option>
+                    <option value="هماهنگی مراجعه حضوری در صادقیه">هماهنگی مراجعه حضوری در صادقیه</option>
+                    <option value="شکایات، انتقادات یا پیشنهادات">شکایات، انتقادات یا پیشنهادات</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="ticketMessage">متن پیام:</label>
+                  <textarea id="ticketMessage" rows="4" required class="form-textarea" placeholder="شرح درخواست یا سوال خود را اینجا بنویسید..."></textarea>
+                </div>
+                <button type="submit" class="btn-gold w-full py-3 text-sm font-black shadow-lg">
+                  ثبت رسمی تیکت پشتیبانی
+                </button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center text-xs text-[#b0c7f8]">
+        © کلیه حقوق برای سامانه ادمین سنتر محفوظ است. مدیریت: مهران نعمتی | نشانی: تهران، صادقیه، فلکه دوم، جنب املاک خورشید
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
